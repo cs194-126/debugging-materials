@@ -1,0 +1,675 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="svg4250"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   xml:space="preserve"
+   width="634.72913"
+   height="504.21817"
+   viewBox="0 0 634.72913 504.21817"
+   sodipodi:docname="ads1015-p8-writeprocedure.svg"><metadata
+     id="metadata4256"><rdf:RDF><cc:Work
+         rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata><defs
+     id="defs4254"><clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath4270"><path
+         d="M 0,0 93,0 93,23 0,23 0,0 Z"
+         id="path4272"
+         inkscape:connector-curvature="0" /></clipPath><clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath4288"><path
+         d="M 0,0 358,0 358,131 0,131 0,0 Z"
+         id="path4290"
+         inkscape:connector-curvature="0" /></clipPath></defs><sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="2560"
+     inkscape:window-height="1546"
+     id="namedview4252"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:zoom="0.99137799"
+     inkscape:cx="314.47071"
+     inkscape:cy="124.20511"
+     inkscape:window-x="2400"
+     inkscape:window-y="185"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g4258" /><g
+     id="g4258"
+     inkscape:groupmode="layer"
+     inkscape:label="ads1015"
+     transform="matrix(1.25,0,0,-1.25,-65.619597,974.9675)"><g
+       id="g4260"><g
+         id="g4262"><g
+           id="g4264"
+           transform="translate(465,750)"><g
+             id="g4266"><g
+               id="g4268"
+               clip-path="url(#clipPath4270)"><g
+                 id="g4274"
+                 transform="scale(0.1,0.1)"><path
+                   d="m 265.32,172.348 0,-59.106 c 0,-6.242 -3.172,-7.222 -6.254,-8.183 l 0,-2.129 27.301,0 0,2.129 c -3.09,0.957 -6.297,1.941 -6.297,8.183 l 0,59.106 c 0,3.562 1.114,4.433 5.762,4.433 12.793,0 19.039,-0.242 23.563,-7.351 l 1.574,0.98 -5.098,15.098 -66.488,0 -5.129,-15.098 1.605,-0.98 c 5.5,7.008 9.825,7.351 23.68,7.351 4.695,0 5.781,-0.871 5.781,-4.433 z m 31.106,-8.434 c 4.008,-1.094 6.172,-2.078 6.172,-8.207 l 0,-42.465 c 0,-6.242 -2.164,-7.222 -6.172,-8.183 l 0,-2.129 51.465,-0.008 5.875,14.777 -1.586,1.125 c -5.176,-6.773 -10.543,-8.375 -17.692,-8.375 l -13.265,0 c -4.18,0 -5.145,0.137 -5.145,4.199 l 0,17.707 16.078,0 c 6.274,0 7.211,-1.492 8.223,-5.179 l 2.461,0 0,17.715 -2.461,0 c -1.012,-3.735 -1.949,-5.293 -8.223,-5.293 l -16.078,0 -0.004,14.828 c 0.004,3.074 0.969,4.086 5.149,4.086 l 11.273,0 c 7.285,0 11.106,-1.856 16.613,-7.75 l 1.606,1.125 -5.172,14.133 -49.117,0 0,-2.106 z m 66.199,-7.258 15.738,-22.242 -14.847,-21.172 c -4.602,-6.351 -7.282,-7.222 -11.45,-8.183 l 0,-2.129 23.817,0 0,2.129 c -4.524,0.847 -6.516,2.601 -3.434,7.394 l 10.41,16.266 10.961,-15.809 c 4.051,-5.746 -0.218,-7.347 -3.941,-7.851 l 0,-2.129 43.125,0 0,2.129 c -4.289,0.738 -6.25,2.218 -4.066,8.078 l 2.828,7.394 25.812,0 2.711,-7.394 c 1.734,-4.778 1.09,-7.344 -3.934,-8.078 l 0,-2.129 26.559,0 0,2.129 c -3.09,0.961 -5.891,3.578 -7.285,7.109 l -20.512,53.852 -14.023,0 -19.625,-50.165 c -2.094,-5.175 -4.02,-7.648 -6.125,-9.082 -1.571,1.043 -3.047,2.606 -5.059,5.395 l -17.226,24.52 13.914,19.695 c 3.675,5.297 6.785,6.437 10.414,7.531 l 0,2.106 -22.438,0 0,-2.106 c 4.653,-0.34 6.012,-2.957 3.301,-7.016 l -9.746,-14.41 -8.801,13.219 c -3.68,5.371 -0.969,7.582 3.11,8.207 l 0,2.106 -29.899,0 0,-2.106 c 4.176,-1.094 6.227,-2.351 9.711,-7.258 z m 82.316,-1.59 10.043,-27.519 -20.566,0 10.523,27.519 z M 488.68,102.93 c 0,1.027 0.949,3.09 2.183,3.09 2.836,-1.379 7.649,-4.157 16.492,-4.157 14.844,0 25.301,7.356 25.301,19.93 0,11.758 -6.515,16.531 -19.062,19.363 l -11.403,2.582 c -6.464,1.485 -8.636,3.297 -8.636,7.395 0,4.676 3.711,7.758 11.832,7.758 9.078,0 16.195,-4.36 21.359,-10.227 l 1.59,1.106 -4.66,16.25 -2.961,0 c 0,-1.368 -0.59,-2.852 -1.836,-2.852 -2.711,1.484 -6.875,3.828 -13.996,3.828 -12.785,0 -22.727,-6.637 -22.727,-18.68 0,-9.246 5.52,-15 17.539,-17.718 l 10.868,-2.457 c 7.203,-1.582 9.761,-4.184 9.761,-8.7 0,-6.304 -4.945,-9.609 -13.234,-9.609 -11.535,0 -18.902,6.023 -24.934,13.027 l -1.609,-1.066 5.035,-18.863 3.098,0 z M 258.48,87.5742 c 3.829,-1.1054 6.883,-2.1094 6.879,-8.2383 l 0.004,-61.914 c 0,-6.2969 -3.054,-7.2383 -6.886,-8.21096 l 0,-2.10938 28.461,0 0,2.10938 c -3.801,0.97266 -6.833,1.91406 -6.833,8.21096 l 0.004,61.914 c -0.004,6.1289 3.028,7.1329 6.829,8.2383 l 0,2.0586 -28.461,0 0.003,-2.0586 z m 78.231,-19.5469 c 3.68,-1.1289 5.773,-2.039 5.773,-8.1679 l 0,-25.8633 -0.363,0 -31.695,36.1367 -18.547,0 0,-2.1055 c 3.695,-1.5859 6.141,-2.7929 6.141,-8.1679 l 0,-42.4375 c 0,-5.8946 -2.086,-7.2383 -6.141,-8.21096 l 0,-2.10938 20.984,0 0,2.10938 c -3.332,0.97266 -6.472,2.31636 -6.472,8.21096 l 0,36.6211 0.336,0 41.929,-47.78128 2.199,0 0,53.59768 c 0,6.1289 3.059,7.039 5.532,8.1679 l 0,2.1055 -19.676,0 0,-2.1055 z M 391.676,45.332 380.23,47.8867 c -6.535,1.4844 -8.625,3.293 -8.625,7.4141 0,4.6406 3.692,7.7265 11.79,7.7265 9.105,0 16.226,-4.3125 21.394,-10.1992 l 1.57,1.0938 -4.64,16.2109 -2.938,-0.0039 c 0,-1.375 -0.652,-2.8242 -1.871,-2.8242 -2.695,1.4492 -6.863,3.8047 -14.031,3.8047 -12.754,0 -22.691,-6.6016 -22.691,-18.6875 0,-9.1758 5.539,-14.9727 17.562,-17.6446 l 10.832,-2.4648 c 7.254,-1.5898 9.816,-4.2383 9.816,-8.7187 0,-6.2852 -5.031,-9.6016 -13.242,-9.5977 -11.578,0 -18.945,6.0234 -24.968,13.0312 l -1.602,-1.082 5.059,-18.84374 3.054,0 c 0,0.97657 0.981,3.08204 2.188,3.08204 2.836,-1.35157 7.636,-4.17969 16.504,-4.17969 14.8,0 25.32,7.34379 25.32,19.94139 0,11.7656 -6.531,16.5469 -19.035,19.3867 z m 22.691,24.8008 -5.031,-16.2109 1.574,-1.0938 c 6.77,8.9336 8.617,9.7852 17.567,9.7852 3.082,0 4.07,-0.2383 4.07,-4.0078 l 0,-41.1836 c 0,-6.2969 -1.848,-7.2383 -6.859,-8.21096 l 0,-2.10938 27.007,0 0,2.10547 c -4.914,0.97657 -6.875,1.91797 -6.875,8.21487 l 0,41.1836 c 0,3.7695 1,4.0078 4.051,4.0117 8.965,-0.0039 11.32,-0.8555 18.043,-9.7891 l 1.621,1.0938 -5.023,16.2109 -50.145,0 z m 109.477,-44.375 c -3.84,6.168 -7.711,8.8985 -12.313,9.9649 l 0,0.3867 c 10.832,1.707 16.977,7.4023 16.977,16.5664 0,12.2812 -9.824,17.457 -25.672,17.457 l -32.309,0 0,-2.1055 c 4.004,-1.1289 6.102,-2.039 6.102,-8.1679 l 0,-42.4375 c 0.004,-6.2969 -2.098,-7.2383 -6.102,-8.21096 l 0,-2.10938 26.399,0 0,2.10938 c -3.824,0.97266 -6.379,1.91406 -6.379,8.21096 l 0,15.7578 6.519,0 c 7.598,0 8.707,-3.1094 13.61,-13.4141 4.051,-8.4609 9.472,-13.76169 19.695,-13.76169 5.094,0 7.195,0.96875 9.297,2.07422 l 0,1.75781 C 531.418,11.043 528.73,17.8008 523.844,25.7578 Z m -22.496,14.7735 -10.801,0 0,16.6953 c 0,4.0117 0.984,5.1484 4.019,5.1484 l 7.008,0 c 7.617,0 12.063,-2.9531 12.063,-10.293 0,-7.7304 -5.008,-11.5507 -12.289,-11.5507 z m 78.347,27.496 c 3.231,-0.7226 6.274,-2.039 6.274,-8.1679 l 0,-31.1406 c 0,-10.3047 -3.926,-14.8516 -15.582,-14.8516 -12.414,0 -16.844,4.5469 -16.844,14.8516 l 0,31.1406 c 0,6.1289 2.328,7.4453 6.16,8.1679 l 0,2.1055 -25.82,0 0,-2.1055 c 3.801,-0.5703 6.254,-2.039 6.254,-8.1679 l 0,-32.1016 c 0,-16.8476 14.625,-21.75389 28.375,-21.75389 15.383,0 26.316,5.12109 26.316,22.71489 l 0,31.1406 c 0,6.1289 1.832,7.3047 5.66,8.1679 l -0.004,2.1055 -20.789,0 0,-2.1055 z m 65.371,-38.7929 -18.136,40.8984 -22.61,0 0,-2.1055 c 4.043,-1.1289 6.121,-2.039 6.121,-8.1679 l 0,-42.4375 c 0,-5.5196 -2.343,-6.9805 -6.121,-8.21096 l 0,-2.10938 20.012,0 0,2.10938 c -4.187,1.07036 -6.027,2.69136 -6.027,8.21096 l 0,39.5976 22.683,-50.90622 1.754,0 22.11,50.90622 0,-39.5976 c 0,-6.2969 -2.711,-7.3711 -5.766,-8.21096 l 0,-2.10938 25.805,0 0,2.10938 c -4.051,0.97266 -6.137,1.91406 -6.137,8.21096 l 0,42.4375 c 0,6.1289 2.086,7.039 6.137,8.1679 l 0,2.1055 -22.246,0 -17.579,-40.8984 z m 82.86,-14.6289 -13.305,0.0078 c -4.176,-0.0078 -5.156,0.082 -5.156,4.1445 l 0,17.711 16.117,0 c 6.234,0 7.223,-1.4805 8.195,-5.125 l 2.461,0 0,17.6757 -2.461,0 c -0.972,-3.6875 -1.961,-5.2773 -8.195,-5.2773 l -16.117,0 0,14.8633 c 0,3.0429 0.98,4.0078 5.156,4.0078 l 11.32,0 c 7.243,0 11.008,-1.8281 16.567,-7.7227 l 1.59,1.1641 -5.164,14.0781 -49.133,0 0,-2.1055 c 4.07,-1.1289 6.137,-2.039 6.137,-8.1679 l 0,-42.4375 c 0,-6.2969 -2.067,-7.2383 -6.137,-8.21096 l 0,-2.10938 51.469,0 5.89,14.72654 -1.594,1.1328 c -5.144,-6.7382 -10.597,-8.3554 -17.64,-8.3554 z m 65.554,53.4218 c 3.711,-1.1289 5.801,-2.039 5.801,-8.1679 l 0,-25.8633 -0.402,0 -31.664,36.1367 -18.578,0 0,-2.1055 c 3.707,-1.5859 6.156,-2.7929 6.156,-8.1679 l 0,-42.4336 c 0,-5.8985 -2.07,-7.2383 -6.156,-8.21486 l 0,-2.10938 21.015,0 0,2.10938 c -3.308,0.97266 -6.48,2.31636 -6.48,8.21096 l 0,36.6211 0.332,0 41.922,-47.78128 2.187,0 0,53.59768 c 0,6.1289 3.09,7.039 5.547,8.1679 l 0,2.1055 -19.68,0 0,-2.1055 z m 25.454,2.1055 -5.055,-16.2109 1.57,-1.0938 c 6.785,8.9336 8.668,9.7852 17.602,9.7891 3.062,-0.0039 4.058,-0.2422 4.058,-4.0117 l 0,-41.1836 c 0,-6.2969 -1.847,-7.2383 -6.879,-8.21096 l 0,-2.10938 27.024,0 0,2.10938 c -4.922,0.97266 -6.871,1.91406 -6.871,8.21096 l 0,41.1797 c 0,3.7734 0.945,4.0117 4.031,4.0117 9,0 11.309,-0.8516 18.098,-9.7852 l 1.547,1.0938 -5.024,16.2109 -50.101,0 z m 89.91,-24.8008 -11.387,2.5547 c -6.519,1.4844 -8.66,3.293 -8.66,7.4141 0,4.6406 3.703,7.7265 11.812,7.7265 9.094,0 16.215,-4.3125 21.403,-10.1992 l 1.57,1.0938 -4.687,16.2109 -2.961,0 c 0,-1.3789 -0.555,-2.8281 -1.801,-2.8281 -2.68,1.4492 -6.883,3.8047 -14.035,3.8047 -12.723,-0.0039 -22.672,-6.6016 -22.672,-18.6875 0,-9.1758 5.496,-14.9727 17.492,-17.6446 l 10.848,-2.4648 c 7.242,-1.5898 9.867,-4.2383 9.867,-8.7187 0,-6.2852 -5.07,-9.5977 -13.309,-9.5977 -11.543,0 -18.949,6.0234 -24.898,13.0312 l -1.625,-1.082 5.023,-18.84374 3.078,0 c 0,0.97657 0.989,3.08204 2.231,3.08204 2.828,-1.35157 7.586,-4.17969 16.461,-4.1836 14.855,0 25.328,7.3477 25.328,19.9453 0,11.7656 -6.547,16.5469 -19.078,19.3867"
+                   style="fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                   id="path4276"
+                   inkscape:connector-curvature="0" /><path
+                   d="m 195.789,161.539 0,24.27 -38.949,0 -4.91,-24.465 13.988,0 -4.516,-22.598 -13.996,0 -4.875,-24.418 c -0.371,-1.68 -0.656,-2.855 -0.808,-4.043 -1.145,-7.441 2.136,-7.086 12.621,-7.086 l -4.813,-24.0271 -18.351,0 c -17.34,0 -31.4612,0.164 -27.785,17.8984 0.558,2.7891 1.25,5.4767 1.722,8.1097 l 6.606,33.566 -13.5082,0 4.5392,22.598 13.465,0 4.867,24.465 -12.59,0 0,36.992 -46.6405,0 0,-75.258 -55.8555,0 c 1.35547,-19.453 18.6406,-22.285 24.9375,-36.203 4.3711,-9.524 8.1133,-26.2931 20.7969,-26.4455 9.6445,-0.1093 9.6445,12.5235 22.1172,12.5157 12.4609,0.0078 18.0429,-23.6524 29.1254,-43.1368 8.281,-15.3437 22.105,-25.6093 34.625,-26.4531 10.273,-0.7461 15.246,2.7422 15.246,2.7422 -2.758,5.6172 -4.145,11.1328 -4.145,19.5039 0,12.5469 9.692,25.0586 20.785,33.4453 15.239,11.1328 31.856,15.3438 37.375,16.7183 l 0,38.989 c 0,0 -11.074,5.941 -11.074,22.32 z m -63.566,-58.34 16.375,82.61 -18.848,0 -16.449,-82.61 18.922,0 z m 21.453,108.742 -18.879,0 -3.641,-18.277 18.879,0 3.641,18.277"
+                   style="fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                   id="path4278"
+                   inkscape:connector-curvature="0" /></g></g></g></g></g><path
+         d="m 54,726.8 504,0 0,1.5 -504,0 0,-1.5 z"
+         style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="path4550"
+         inkscape:connector-curvature="0" /></g><g
+       id="g4552" /><text
+       transform="matrix(0.75,0,0,-1,54,769.6)"
+       style="font-variant:normal;font-weight:bold;font-size:14px;font-family:Helvetica;-inkscape-font-specification:Helvetica-Bold;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text4554"><tspan
+         x="0 7.5809999 15.162 22.165501 28.0035 33.841499 39.679501"
+         y="0"
+         sodipodi:role="line"
+         id="tspan4556">ADS1013</tspan></text>
+<text
+       transform="matrix(0.75,0,0,-1,54,755.6)"
+       style="font-variant:normal;font-weight:bold;font-size:14px;font-family:Helvetica;-inkscape-font-specification:Helvetica-Bold;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text4558"><tspan
+         x="0 7.5809999 15.162 22.165501 28.0035 33.841499 39.679501"
+         y="0"
+         sodipodi:role="line"
+         id="tspan4560">ADS1014</tspan></text>
+<text
+       transform="matrix(0.75,0,0,-1,54,741.6)"
+       style="font-variant:normal;font-weight:bold;font-size:14px;font-family:Helvetica;-inkscape-font-specification:Helvetica-Bold;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text4562"><tspan
+         x="0 7.5809999 15.162 22.165501 28.0035 33.841499 39.679501"
+         y="0"
+         sodipodi:role="line"
+         id="tspan4564">ADS1015</tspan></text>
+<text
+       transform="matrix(1,0,0,-1,54,729.8)"
+       style="font-variant:normal;font-weight:normal;font-size:7px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text4566"><tspan
+         x="0 4.6690001 9.3380003 14.007 18.676001 22.568001 26.459999 30.351999 37 41.599998 47.431 52.099998 58.869999 62.762001 66.653999 70.545998 75.300003 80 85.054001 89.723 94.391998 96.337997 101.007 105.676 112.83 118.276 123.33 127.607 133.05299 137.722 142.39101 149.55 153.442 157.334 161.226"
+         y="0"
+         sodipodi:role="line"
+         id="tspan4568">SBAS473C–MAY2009–REVISEDOCTOBER2009</tspan></text>
+<text
+       transform="matrix(1.0857,0,0,-1,515.5,729.8)"
+       style="font-variant:normal;font-weight:bold;font-size:7px;font-family:Helvetica;-inkscape-font-specification:Helvetica-Bold;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text4570"><tspan
+         x="0 5.9127221 11.825444 17.738167 19.850939 22.381706 24.494478 26.60725 30.832794 35.476334"
+         y="0"
+         sodipodi:role="line"
+         id="tspan4572">www.ti.com</tspan></text>
+<text
+       transform="matrix(1,0,0,-1,54,707.8)"
+       style="font-variant:normal;font-weight:bold;font-size:11px;font-family:Helvetica;-inkscape-font-specification:Helvetica-Bold;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text4574"><tspan
+         x="0 8.5579996 16.5 19.558001 27.5 35.442001 42.778999 49.5 57.442001 65.384003 75.400002 83.958 91.900002 94.958 102.9"
+         y="0"
+         sodipodi:role="line"
+         id="tspan4576">QUICKSTARTGUIDE</tspan></text>
+<text
+       transform="matrix(1,0,0,-1,318,707.8)"
+       style="font-variant:normal;font-weight:normal;font-size:10px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text4578"><tspan
+         x="0 6.1100001 11.67 19.200001 24.76 29.76 35.32 43.650002 49.209999 51.43 56.990002 63.970001 66.75 76.510002 83.730003 87.059998 89.279999 92.059998 101.82 104.6 114.36 117.14 122.7 132.46001 137.46001 143.02 148.58 151.36 153.58 159.14 164.7 168.03 173.59 176.37 178.59 184.14999 193.91 197.24001 202.8 208.36 210.58 215.58 218.36 223.92 231.45 234.23"
+         y="0"
+         sodipodi:role="line"
+         id="tspan4580">Forexample,towritetotheconfigurationregisterto</tspan></text>
+<text
+       transform="matrix(1,0,0,-1,318,696.8)"
+       style="font-variant:normal;font-weight:normal;font-size:10px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text4582"><tspan
+         x="0 5 10.56 17.139999 19.92 25.48 34.84 41.509998 48.73 55.400002 60.959999 66.519997 72.080002 77.639999 80.419998 85.980003 88.760002 98.120003 100.9 110.26 115.26 120.82 126.38 129.16 131.38 136.94 142.5 148.06 153.62 162.42 167.42 172.98 178.53999 183.53999 189.10001 192.42999 197.42999 199.64999 205.21001 214.57001 222.89999 228.46001 234.02"
+         y="0"
+         sodipodi:role="line"
+         id="tspan4584">settheADS1013/4/5tocontinuousconversionmode</tspan></text>
+<text
+       transform="matrix(1,0,0,-1,54,690.8)"
+       style="font-variant:normal;font-weight:normal;font-size:10px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text4586"><tspan
+         x="0 6.1100001 11.67 13.89 21.889999 26.889999 32.450001 37.450001 40.23 42.450001 48.009998 56.57 62.130001 65.459999 71.019997 76.019997 78.239998 83.800003 89.360001 97.360001 105.92 111.48 114.81 117.03 122.59 128.37 133.92999 138.92999 144.49001 152.82001 158.38 160.60001 169.16 174.72 180.5 187.17 194.39 201.06 206.62 212.17999 217.74001 223.3 226.08 231.64 234.42"
+         y="0"
+         sodipodi:role="line"
+         id="tspan4588">ThissectionprovidesabriefexampleofADS1013/4/5</tspan></text>
+<text
+       transform="matrix(1,0,0,-1,318,685.8)"
+       style="font-variant:normal;font-weight:normal;font-size:10px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text4590"><tspan
+         x="0 5.5599999 11.12 24.98 27.76 33.32 38.880001 52.740002 56.07 61.630001 67.190002 81.050003 83.830002 89.389999 103.25 108.25 113.81 119.37 124.37 129.92999 133.25999 138.25999 140.48 146.03999 159.89999 163.23 168.78999 173.78999 179.35001 181.57001 184.35001 195.42999 200.42999 205.99001 211.55 225.41 228.19 233.75"
+         y="0"
+         sodipodi:role="line"
+         id="tspan4592">andthenreadtheconversionresult,sendthe</tspan></text>
+<text
+       transform="matrix(1,0,0,-1,54,679.8)"
+       style="font-variant:normal;font-weight:normal;font-size:10px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text4594"><tspan
+         x="0 5 10.56 18.889999 27.219999 32.779999 38.34 40.560001 45.560001 51.119999 53.900002 56.119999 61.68 67.239998 72.239998 78.32 85.540001 91.099998 93.879997 99.440002 106.07 108.85 117.71 122.71 128.27 133.83 138.83 144.39 149.95 155.50999 161.07001 166.63 172.71001 177.71001 183.27 188.27 191.05 193.27 198.83 204.39 212.69 218.25 224.33 227.11 232.67 234.89"
+         y="0"
+         sodipodi:role="line"
+         id="tspan4596">communications.Refertosubsequentsectionsofthis</tspan></text>
+<text
+       transform="matrix(1,0,0,-1,318,674.8)"
+       style="font-variant:normal;font-weight:normal;font-size:10px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text4598"><tspan
+         x="0 2.78 8.3400002 10.56 12.78 18.34 25.559999 27.780001 33.34 41.900002 47.459999 52.459999 55.240002 60.799999 68.800003 71.019997 79.580002 82.360001 87.919998 90.139999 98.139999 103.7 107.03 112.59 118.15 121.48"
+         y="0"
+         sodipodi:role="line"
+         id="tspan4600">followingbytesinthisorder:</tspan></text>
+<text
+       transform="matrix(1,0,0,-1,54,668.8)"
+       style="font-variant:normal;font-weight:normal;font-size:10px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text4602"><tspan
+         x="0 5.5599999 11.12 13.9 23.459999 28.459999 34.02 39.580002 45.139999 51.919998 54.700001 60.259998 67.589996 75.919998 81.480003 84.809998 94.370003 99.93 105.49 108.27 113.83 116.05 118.27 123.83 133.39 138.95 143.95 149.50999 151.73 157.28999 162.85001 168.41 171.19 173.41 178.97 184.53 189.53 196.31 203.53 209.09 212.42 217.98 225.2 230.75999 234.09"
+         y="0"
+         sodipodi:role="line"
+         id="tspan4604">datasheetformoredetailedexplanations.Hardware</tspan></text>
+<text
+       transform="matrix(1,0,0,-1,54,657.8)"
+       style="font-variant:normal;font-weight:normal;font-size:10px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text4606"><tspan
+         x="0 2.78 8.3400002 15.17 17.950001 23.51 25.73 34.23 39.790001 45.349998 50.349998 52.57 58.130001 67.190002 69.410004 74.970001 79.970001 82.190002 87.75 93.309998 98.870003 103.87 110.15 115.71 121.27 130.33 137 144.22 150.89 156.45 162.00999 167.57001 173.13 175.91 181.47 184.25 193.31 198.31 203.87 209.42999 212.21001 214.42999 219.99001 225.55 228.88 234.44"
+         y="0"
+         sodipodi:role="line"
+         id="tspan4608">forthisdesignincludes:oneADS1013/4/5configured</tspan></text>
+<text
+       transform="matrix(1,0,0,-1,318,657.8)"
+       style="font-variant:normal;font-weight:bold;font-size:10px;font-family:Helvetica;-inkscape-font-specification:Helvetica-Bold;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text4610"><tspan
+         x="0 9.4399996 13.33 16.110001 19.440001 28 31.33 40.439999 47.66 53.77 59.880001 63.209999 65.989998 75.099998 78.989998 84.550003 90.660004 93.440002 99 102.33 107.89 111.78"
+         y="0"
+         sodipodi:role="line"
+         id="tspan4612">WritetoConfigregister:</tspan></text>
+<text
+       transform="matrix(1,0,0,-1,54,646.8)"
+       style="font-variant:normal;font-weight:normal;font-size:10px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text4614"><tspan
+         x="0 7.2199998 9.4399996 12.22 23.48 29.040001 40.299999"
+         y="0"
+         sodipodi:role="line"
+         id="tspan4616">withanI</tspan></text>
+<text
+       transform="matrix(1,0,0,-1,97,650.8)"
+       style="font-variant:normal;font-weight:normal;font-size:7px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text4618"><tspan
+         x="0"
+         y="0"
+         id="tspan4620">2</tspan></text>
+<text
+       transform="matrix(1,0,0,-1,100.89,646.8)"
+       style="font-variant:normal;font-weight:normal;font-size:10px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text4622"><tspan
+         x="0 12.92 18.48 24.040001 29.6 32.93 38.490002 43.490002 54.189999 59.75 68.230003 73.790001 79.349998 84.910004 90.470001 96.029999 101.59 107.15 115.63 126.89 135.22 137.44 142.44 145.77 151.33 156.33 161.89 167.45 170.23 173.56 179.12 181.34 183.56 189.12"
+         y="0"
+         sodipodi:role="line"
+         id="tspan4624">Caddressof1001000;amicrocontroller</tspan></text>
+<text
+       transform="matrix(1,0,0,-1,318,640.8)"
+       style="font-variant:normal;font-weight:normal;font-size:10px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text4626"><tspan
+         x="0 6.1100001 8.3299999 11.66 16.66 28.540001 34.099998 39.099998 41.880001 47.439999 59.32 64.879997 70.440002 76 81.559998 87.120003 92.68 98.239998 103.8 109.36 124.02 127.35 130.13 132.35001 135.67999 140.67999 152.56 158.12 161.45 167.00999 169.23 181.11"
+         y="0"
+         sodipodi:role="line"
+         id="tspan4628">Firstbyte:0b10010000(first7-bitI</tspan></text>
+<text
+       transform="matrix(1,0,0,-1,501.8,644.8)"
+       style="font-variant:normal;font-weight:normal;font-size:7px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text4630"><tspan
+         x="0"
+         y="0"
+         id="tspan4632">2</tspan></text>
+<text
+       transform="matrix(1,0,0,-1,505.69,640.8)"
+       style="font-variant:normal;font-weight:normal;font-size:10px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text4634"><tspan
+         x="0 16.32 21.879999 27.440001 33 36.330002 41.889999 46.889999"
+         y="0"
+         sodipodi:role="line"
+         id="tspan4636">Caddress</tspan></text>
+<text
+       transform="matrix(1,0,0,-1,54,635.8)"
+       style="font-variant:normal;font-weight:normal;font-size:10px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text4638"><tspan
+         x="0 7.2199998 9.4399996 12.22 22.98 28.540001 39.299999"
+         y="0"
+         sodipodi:role="line"
+         id="tspan4640">withanI</tspan></text>
+<text
+       transform="matrix(1,0,0,-1,96,639.8)"
+       style="font-variant:normal;font-weight:normal;font-size:7px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text4642"><tspan
+         x="0"
+         y="0"
+         id="tspan4644">2</tspan></text>
+<text
+       transform="matrix(1,0,0,-1,99.89,635.8)"
+       style="font-variant:normal;font-weight:normal;font-size:10px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#0000c8;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text4646"><tspan
+         x="0 12.42 14.64 20.200001 22.98 28.540001 31.870001 34.650002 40.209999 45.209999 55.970001 59.299999 65.410004 73.389999 76.720001 82.279999 87.279999 92.839996 101.17 109.5 115.06 120.62 126.18 136.38 139.16 144.72"
+         y="0"
+         sodipodi:role="line"
+         id="tspan4648">Cinterface(TIrecommendsthe</tspan><tspan
+         x="155.48 163.81 170.48 177.14999 182.71001 188.27"
+         y="0"
+         sodipodi:role="line"
+         id="tspan4650">MSP430</tspan></text>
+<text
+       transform="matrix(1,0,0,-1,318,629.8)"
+       style="font-variant:normal;font-weight:normal;font-size:10px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text4652"><tspan
+         x="0 2.78 8.3400002 10.56 12.78 18.34 25.559999 31.120001 39.68 45.240002 53.240002 61.799999 64.019997 69.580002 79.800003 83.129997 88.690002 94.25 99.809998 102.59 109.81 113.14 115.36 118.14 126.7 132.25999 134.48 137.25999"
+         y="0"
+         sodipodi:role="line"
+         id="tspan4654">followedbyalowread/writebit)</tspan></text>
+<text
+       transform="matrix(1,0,0,-1,54,624.8)"
+       style="font-variant:normal;font-weight:normal;font-size:10px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text4656"><tspan
+         x="0 5.5599999 8.8900003 14.45 20.01 25.57 30.57 37.150002 39.369999 41.59 47.150002 52.709999 56.040001 62.619999 68.18 70.400002 75.400002 80.400002 83.730003 89.290001 92.07 101.43 106.43 111.99 120.32 125.88 131.44 137 142.56 148.12 150.89999 159.7 164.7 170.25999 175.25999 184.62 190.17999 198.98 202.31 207.87 212.87 215.09 220.09 222.87 228.42999 231.75999 236.75999"
+         y="0"
+         sodipodi:role="line"
+         id="tspan4658">productline);discretecomponentssuchasresistors,</tspan></text>
+<text
+       transform="matrix(1,0,0,-1,54,613.8)"
+       style="font-variant:normal;font-weight:normal;font-size:10px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text4660"><tspan
+         x="0 5 10.56 16.120001 21.68 26.68 28.9 31.68 37.240002 40.57 45.57 53.849998 59.41 64.970001 76.029999 81.029999 86.589996 89.919998 92.139999 97.699997 105.42 110.42 115.98 121.54 127.1 132.66 137.66 140.44 146 149.33 154.33 162.61 168.17 173.73 184.78999 195.85001 201.41 213.58 216.36 227.42 232.98"
+         y="0"
+         sodipodi:role="line"
+         id="tspan4662">capacitors,andserialconnectors;anda2Vto5V</tspan></text>
+<text
+       transform="matrix(1,0,0,-1,318,612.8)"
+       style="font-variant:normal;font-weight:normal;font-size:10px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text4664"><tspan
+         x="0 6.6700001 12.23 17.23 22.790001 28.35 36.91 42.470001 47.470001 50.25 55.810001 61.59 67.150002 72.709999 78.269997 83.830002 89.389999 94.949997 100.51 106.07 111.63 120.19 123.52 129.08 134.64 136.86 142.42 145.2 153.2 155.98 164.53999 171.75999 177.32001 182.88 185.66 187.88 196.44 199.77 205.33 210.89 213.11 218.11 220.89 226.45 229.78"
+         y="0"
+         sodipodi:role="line"
+         id="tspan4666">Secondbyte:0b00000001(pointstoConfigregister)</tspan></text>
+<text
+       transform="matrix(1,0,0,-1,54,602.8)"
+       style="font-variant:normal;font-weight:normal;font-size:10px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text4668"><tspan
+         x="0 5.5599999 11.12 18.34 23.9 32.93 37.93 43.490002 49.049999 54.610001 56.830002 61.830002"
+         y="0"
+         sodipodi:role="line"
+         id="tspan4670">powersupply.</tspan><tspan
+         x="70.309998 76.419998 78.639999 84.199997 89.760002 93.089996 104.35"
+         y="0"
+         sodipodi:role="line"
+         id="tspan4672">Figure9</tspan><tspan
+         x="115.6 120.6 126.16 131.72 138.94 149.64 152.42 157.98 169.24001 174.8 180.36 185.36 187.58 198.28 203.84 209.39999 212.73 218.28999 225.50999 231.07001 234.39999"
+         y="0"
+         sodipodi:role="line"
+         id="tspan4674">showsthebasichardware</tspan></text>
+<text
+       transform="matrix(1,0,0,-1,318,595.8)"
+       style="font-variant:normal;font-weight:normal;font-size:10px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text4676"><tspan
+         x="0 6.1100001 11.67 13.89 17.219999 27.08 32.639999 37.639999 40.419998 45.98 53.060001 58.619999 64.18 69.739998 75.300003 80.860001 86.419998 91.980003 97.540001 103.1 112.96 116.29 124.62 131.28999 142.25999 147.82001 154.89999 157.67999 163.24001 173.10001 180.32001 185.88 191.44 194.22 196.44 206.3 209.63 215.19 220.75 222.97 227.97 230.75 236.31"
+         y="0"
+         sodipodi:role="line"
+         id="tspan4678">Thirdbyte:0b00000100(MSBoftheConfigregister</tspan></text>
+<text
+       transform="matrix(1,0,0,-1,54,591.8)"
+       style="font-variant:normal;font-weight:normal;font-size:10px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text4680"><tspan
+         x="0 5 10.56 16.120001 18.9 21.120001 26.68 32.240002 35.57 41.130001 43.91 46.130001 51.689999 57.25"
+         y="0"
+         sodipodi:role="line"
+         id="tspan4682">configuration.</tspan></text>
+<text
+       transform="matrix(1,0,0,-1,318,584.8)"
+       style="font-variant:normal;font-weight:normal;font-size:10px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text4684"><tspan
+         x="0 2.78 11.34 16.9 25.459999 32.68 36.009998 38.23 41.009998 43.790001 49.349998 54.91"
+         y="0"
+         sodipodi:role="line"
+         id="tspan4686">tobewritten)</tspan></text>
+<text
+       transform="matrix(1,0,0,-1,54,574.8)"
+       style="font-variant:normal;font-weight:normal;font-size:10px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text4688"><tspan
+         x="0 6.1100001 11.67 25.530001 32.200001 39.419998 46.09 51.650002 57.209999 62.77 68.330002 71.110001 76.669998 79.449997 93.309998 98.309998 103.87 112.2 120.53 126.09 131.64999 133.87 138.87 144.42999 147.21001 161.07001 168.28999 170.50999 173.28999 187.14999 189.92999 195.49001 209.35001 217.67999 223.24001 228.24001 231.02 236.58"
+         y="0"
+         sodipodi:role="line"
+         id="tspan4690">TheADS1013/4/5communicatewiththemaster</tspan></text>
+<text
+       transform="matrix(1,0,0,-1,318,567.8)"
+       style="font-variant:normal;font-weight:normal;font-size:10px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text4692"><tspan
+         x="0 6.1100001 11.67 17.23 20.559999 23.34 32.700001 38.259998 43.259998 46.040001 51.599998 58.18 63.740002 69.300003 74.860001 80.419998 85.980003 91.540001 97.099998 102.66 108.22 117.58 120.91 126.47 133.14 143.61 149.17 155.75 158.53 164.09 173.45 180.67 186.23 191.78999 194.57001 196.78999 206.14999 209.48 215.03999 220.60001 222.82001 227.82001 230.60001 236.16"
+         y="0"
+         sodipodi:role="line"
+         id="tspan4694">Fourthbyte:0b10000011(LSBoftheConfigregister</tspan></text>
+<text
+       transform="matrix(1,0,0,-1,54,563.8)"
+       style="font-variant:normal;font-weight:normal;font-size:10px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text4696"><tspan
+         x="0 3.3299999 11.66 13.88 18.879999 22.209999 27.77 32.77 38.330002 43.889999 46.669998 50 55.560001 57.779999 60 65.559998 68.889999 75.519997 78.300003 83.860001 87.190002 92.75 98.309998 103.87 112.73 118.29 127.15"
+         y="0"
+         sodipodi:role="line"
+         id="tspan4698">(microcontroller)throughanI</tspan></text>
+<text
+       transform="matrix(1,0,0,-1,183.9,567.8)"
+       style="font-variant:normal;font-weight:normal;font-size:7px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text4700"><tspan
+         x="0"
+         y="0"
+         id="tspan4702">2</tspan></text>
+<text
+       transform="matrix(1,0,0,-1,187.79,563.8)"
+       style="font-variant:normal;font-weight:normal;font-size:10px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text4704"><tspan
+         x="0 10.52 12.74 18.299999 21.08 26.639999 29.969999 32.75 38.310001 43.310001 48.869999 54.950001 61.060001 66.620003 75.480003 83.809998 89.370003 94.370003 97.150002 102.71"
+         y="0"
+         sodipodi:role="line"
+         id="tspan4706">Cinterface.Themaster</tspan></text>
+<text
+       transform="matrix(1,0,0,-1,318,556.8)"
+       style="font-variant:normal;font-weight:normal;font-size:10px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text4708"><tspan
+         x="0 2.78 11.34 16.9 25.459999 32.68 36.009998 38.23 41.009998 43.790001 49.349998 54.91"
+         y="0"
+         sodipodi:role="line"
+         id="tspan4710">tobewritten)</tspan></text>
+<text
+       transform="matrix(1,0,0,-1,54,552.8)"
+       style="font-variant:normal;font-weight:normal;font-size:10px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text4712"><tspan
+         x="0 5.5599999 8.8900003 14.45 19.450001 21.67 27.23 32.790001 41.689999 51.150002 56.150002 58.369999 63.93 68.93 77.830002 82.830002 85.050003 90.610001 96.169998 101.73 107.85 113.41 122.87 125.65 131.21001 140.67 147.34 154.56 164.02 169.58 171.8 181.25999 186.82001 192.38 201.84 207.39999 212.96001 215.74001 225.2 230.75999 234.09"
+         y="0"
+         sodipodi:role="line"
+         id="tspan4714">providesaclocksignalontheSCLpinanddataare</tspan></text>
+<text
+       transform="matrix(1,0,0,-1,54,541.8)"
+       style="font-variant:normal;font-weight:normal;font-size:10px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text4716"><tspan
+         x="0 2.78 6.1100001 11.67 17.23 22.23 25.01 30.57 33.900002 37.23 42.790001 52.049999 57.049999 59.27 68.529999 71.309998 76.870003 86.129997 92.800003 100.02 110.39 115.95 118.17 123.73 130.21001 136.32001 141.88 151.14 157.81 165.03 171.7 177.25999 182.82001 188.38 193.94 196.72 202.28 205.06 214.32001 219.88 225.44 230.44 236"
+         y="0"
+         sodipodi:role="line"
+         id="tspan4718">transferredviatheSDApin.TheADS1013/4/5never</tspan></text>
+<text
+       transform="matrix(1,0,0,-1,318,539.8)"
+       style="font-variant:normal;font-weight:bold;font-size:10px;font-family:Helvetica;-inkscape-font-specification:Helvetica-Bold;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text4720"><tspan
+         x="0 9.4399996 13.33 16.110001 19.440001 28 31.33 40.439999 47.110001 53.220001 56 62.110001 65.440002 71 77.889999 81.779999 87.339996 93.449997 96.230003 101.79 105.12 110.68 114.57"
+         y="0"
+         sodipodi:role="line"
+         id="tspan4722">WritetoPointerregister:</tspan></text>
+<text
+       transform="matrix(1,0,0,-1,54,530.8)"
+       style="font-variant:normal;font-weight:normal;font-size:10px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text4724"><tspan
+         x="0 5.5599999 8.8900003 11.11 16.110001 26.57 29.35 34.91 45.369999 52.040001 59.259998 69.720001 75.279999 77.5 83.059998 90.739998 96.849998 102.41 110.64 112.86 118.42 121.2 126.76 130.09 138.42 143.98 146.75999 148.98 154.53999 165 170.56 181.02 186.58 189.91 195.47 201.03 204.36 209.92 218.25 226.58 228.8 234.36"
+         y="0"
+         sodipodi:role="line"
+         id="tspan4726">drivetheSCLpin.Forinformationonprogramming</tspan></text>
+<text
+       transform="matrix(1,0,0,-1,318,522.8)"
+       style="font-variant:normal;font-weight:normal;font-size:10px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text4728"><tspan
+         x="0 6.1100001 8.3299999 11.66 16.66 28.540001 34.099998 39.099998 41.880001 47.439999 59.32 64.879997 70.440002 76 81.559998 87.120003 92.68 98.239998 103.8 109.36 124.02 127.35 130.13 132.35001 135.67999 140.67999 152.56 158.12 161.45 167.00999 169.23 181.11"
+         y="0"
+         sodipodi:role="line"
+         id="tspan4730">Firstbyte:0b10010000(first7-bitI</tspan></text>
+<text
+       transform="matrix(1,0,0,-1,501.8,526.8)"
+       style="font-variant:normal;font-weight:normal;font-size:7px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text4732"><tspan
+         x="0"
+         y="0"
+         id="tspan4734">2</tspan></text>
+<text
+       transform="matrix(1,0,0,-1,505.69,522.8)"
+       style="font-variant:normal;font-weight:normal;font-size:10px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text4736"><tspan
+         x="0 16.32 21.879999 27.440001 33 36.330002 41.889999 46.889999"
+         y="0"
+         sodipodi:role="line"
+         id="tspan4738">Caddress</tspan></text>
+<text
+       transform="matrix(1,0,0,-1,54,519.8)"
+       style="font-variant:normal;font-weight:normal;font-size:10px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text4740"><tspan
+         x="0 5.5599999 11.12 21.280001 26.84 32.400002 37.959999 43.52 49.080002 54.639999 56.860001 62.419998 72.580002 75.360001 80.919998 91.080002 99.410004 101.63 106.63 109.96 115.52 120.52 126.08 131.64 134.42 137.75 143.31 145.53 147.75 153.31 161.24001 166.8 172.36 174.58 180.14 190.3 195.86 200.86 206.42 211.98 219.36 222.69 228.25 231.03 236.59"
+         y="0"
+         sodipodi:role="line"
+         id="tspan4742">anddebuggingthemicrocontrollerbeingused,refer</tspan></text>
+<text
+       transform="matrix(1,0,0,-1,318,511.8)"
+       style="font-variant:normal;font-weight:normal;font-size:10px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text4744"><tspan
+         x="0 2.78 8.3400002 10.56 12.78 18.34 25.559999 31.120001 39.68 45.240002 53.240002 61.799999 64.019997 69.580002 79.800003 83.129997 88.690002 94.25 99.809998 102.59 109.81 113.14 115.36 118.14 126.7 132.25999 134.48 137.25999"
+         y="0"
+         sodipodi:role="line"
+         id="tspan4746">followedbyalowread/writebit)</tspan></text>
+<text
+       transform="matrix(1,0,0,-1,54,508.8)"
+       style="font-variant:normal;font-weight:normal;font-size:10px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text4748"><tspan
+         x="0 2.78 11.34 14.12 19.68 28.24 33.799999 39.360001 44.360001 46.580002 51.580002 57.139999 60.470001 65.470001 71.029999 76.589996 81.589996 83.809998 86.589996 88.809998 96.809998 102.37 105.7 111.26 116.82 122.38 127.38 133.16 138.72 144.28 147.06 155.62 160.62 166.17999 171.74001 177.3 180.08"
+         y="0"
+         sodipodi:role="line"
+         id="tspan4750">tothedevice-specificproductdatasheet.</tspan></text>
+<text
+       transform="matrix(1,0,0,-1,318,494.8)"
+       style="font-variant:normal;font-weight:normal;font-size:10px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text4752"><tspan
+         x="0 6.6700001 12.23 17.23 22.790001 28.35 41.810001 47.369999 52.369999 55.150002 60.709999 71.389999 76.949997 82.510002 88.07 93.629997 99.190002 104.75 110.31 115.87 121.43 134.89 138.22 143.78 149.34 151.56 157.12 159.89999 172.8 175.58 189.03999 196.25999 201.82001 207.38 212.38 217.94 221.27 226.27 228.49001 234.05"
+         y="0"
+         sodipodi:role="line"
+         id="tspan4754">Secondbyte:0b00000000(pointstoConversion</tspan></text>
+<text
+       transform="matrix(1,0,0,-1,54,491.8)"
+       style="font-variant:normal;font-weight:normal;font-size:10px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text4756"><tspan
+         x="0 6.1100001 11.67 23.73 26.51 28.73 32.060001 37.060001 46.34 51.900002 56.900002 59.68 71.739998 76.739998 82.300003 87.860001 97.139999 102.7 114.2 116.98 122.54 134.60001 142.92999 148.49001 153.49001 156.27 161.83 171.66 176.66 182.22 187.78 193.34 195.56 207.62 213.17999 225.24001 228.02 233.58"
+         y="0"
+         sodipodi:role="line"
+         id="tspan4758">Thefirstbytesentbythemastershouldbethe</tspan></text>
+<text
+       transform="matrix(1,0,0,-1,318,483.8)"
+       style="font-variant:normal;font-weight:normal;font-size:10px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text4760"><tspan
+         x="0 3.3299999 8.8900003 14.45 16.67 21.67 24.450001 30.01 33.34"
+         y="0"
+         sodipodi:role="line"
+         id="tspan4762">register)</tspan></text>
+<text
+       transform="matrix(1,0,0,-1,54,480.8)"
+       style="font-variant:normal;font-weight:normal;font-size:10px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text4764"><tspan
+         x="0 6.6700001 13.89 20.559999 26.120001 31.68 37.240002 42.799999 45.580002 51.139999 53.919998 63.380001 68.940002 74.5 80.059998 83.389999 88.949997 93.949997 102.85 105.63 111.19 113.41 115.63 121.19 128.41 133.97 143.42999 148.99001 157.89 167.35001 172.91 175.13 181.81 184.59 190.14999 195.71001 202.39 204.61 210.17 215.17 217.95 221.28 226.84 231.84 234.62"
+         y="0"
+         sodipodi:role="line"
+         id="tspan4766">ADS1013/4/5addressfollowedbyabitthatinstructs</tspan></text>
+<text
+       transform="matrix(1,0,0,-1,54,469.8)"
+       style="font-variant:normal;font-weight:normal;font-size:10px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text4768"><tspan
+         x="0 2.78 8.3400002 17.200001 23.870001 31.09 37.759998 43.32 48.880001 54.439999 60 62.779999 68.339996 71.120003 79.980003 82.760002 91.620003 93.839996 96.059998 101.06 103.84 109.4 118.26 121.04 126.6 133.23 142.09 147.09 152.64999 158.21001 163.21001 168.77 174.33 179.89 185.45 191.00999 197.09 202.64999 207.64999 210.42999 215.99001 222.07001 228.17999 233.74001"
+         y="0"
+         sodipodi:role="line"
+         id="tspan4770">theADS1013/4/5tolistenforasubsequentbyte.The</tspan></text>
+<text
+       transform="matrix(1,0,0,-1,318,466.8)"
+       style="font-variant:normal;font-weight:bold;font-size:10px;font-family:Helvetica;-inkscape-font-specification:Helvetica-Bold;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text4772"><tspan
+         x="0 7.2199998 12.78 18.34 27.450001 34.669998 40.779999 46.889999 52.450001 58.009998 61.900002 67.459999 70.239998 76.349998 85.459999 89.349998 94.910004 101.02 103.8 109.36 112.69 118.25 122.14"
+         y="0"
+         sodipodi:role="line"
+         id="tspan4774">ReadConversionregister:</tspan></text>
+<text
+       transform="matrix(1,0,0,-1,54,458.8)"
+       style="font-variant:normal;font-weight:normal;font-size:10px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#0000ff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text4776"><tspan
+         x="0 5 10.56 15.56 21.120001 26.68 36.34 41.900002 46.900002 49.68 59.34 61.560001 70.660004 73.440002 79 88.660004 91.989998 97.550003 103.11 105.33 110.33 113.11 118.67 126.1 131.66 137.22 139.44 145 147.78 153.34 156.67 163.55 170.77 176.33 179.11 184.67 192.10001 194.88"
+         y="0"
+         sodipodi:role="line"
+         id="tspan4778">secondbyteistheregisterpointer.Referto</tspan><tspan
+         x="204.53999 210.64999 216.21001 221.77 223.99001 233.64999"
+         y="0"
+         sodipodi:role="line"
+         id="tspan4780">Table6</tspan></text>
+<text
+       transform="matrix(1,0,0,-1,318,449.8)"
+       style="font-variant:normal;font-weight:normal;font-size:10px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text4782"><tspan
+         x="0 6.1100001 8.3299999 11.66 16.66 28.540001 34.099998 39.099998 41.880001 47.439999 59.32 64.879997 70.440002 76 81.559998 87.120003 92.68 98.239998 103.8 109.36 124.02 127.35 130.13 132.35001 135.67999 140.67999 152.56 158.12 161.45 167.00999 169.23 181.11"
+         y="0"
+         sodipodi:role="line"
+         id="tspan4784">Firstbyte:0b10010001(first7-bitI</tspan></text>
+<text
+       transform="matrix(1,0,0,-1,501.8,453.8)"
+       style="font-variant:normal;font-weight:normal;font-size:7px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text4786"><tspan
+         x="0"
+         y="0"
+         id="tspan4788">2</tspan></text>
+<text
+       transform="matrix(1,0,0,-1,505.69,449.8)"
+       style="font-variant:normal;font-weight:normal;font-size:10px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text4790"><tspan
+         x="0 16.32 21.879999 27.440001 33 36.330002 41.889999 46.889999"
+         y="0"
+         sodipodi:role="line"
+         id="tspan4792">Caddress</tspan></text>
+<text
+       transform="matrix(1,0,0,-1,54,447.8)"
+       style="font-variant:normal;font-weight:normal;font-size:10px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text4794"><tspan
+         x="0 2.78 8.3400002 16.67 27.23 30.559999 36.119999 41.68 43.900002 48.900002 51.68 57.240002 65.57 73.900002 79.459999 85.019997 92.800003 98.910004 104.47 115.03 117.81 123.37 125.59 128.92 139.48 145.03999 150.60001 161.16 163.94 169.5 175.06 178.39 181.17 191.73 197.28999 202.28999 205.07001 210.63 220.63 225.63 231.19 236.75"
+         y="0"
+         sodipodi:role="line"
+         id="tspan4796">foraregistermap.Thethirdandfourthbytessent</tspan></text>
+<text
+       transform="matrix(1,0,0,-1,318,438.8)"
+       style="font-variant:normal;font-weight:normal;font-size:10px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text4798"><tspan
+         x="0 2.78 8.3400002 10.56 12.78 18.34 25.559999 31.120001 39.68 45.240002 53.240002 61.799999 67.360001 69.580002 75.139999 83.699997 87.029999 92.589996 98.150002 103.71 106.49 113.71 117.04 119.26 122.04 130.60001 136.16 138.38 141.16"
+         y="0"
+         sodipodi:role="line"
+         id="tspan4800">followedbyahighread/writebit)</tspan></text>
+<text
+       transform="matrix(1,0,0,-1,54,436.8)"
+       style="font-variant:normal;font-weight:normal;font-size:10px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text4802"><tspan
+         x="0 2.78 6.1100001 11.67 23.1 25.879999 31.440001 40.099998 48.43 53.990002 58.990002 61.77 67.330002 73.760002 79.32 82.650002 91.309998 98.529999 101.86 104.08 106.86 109.64 115.2 123.86 126.64 135.3 138.08 143.64 152.3 155.63 161.19 166.75 168.97 173.97 176.75 182.31 188.74001 190.96001 196.52 202.08 204.3 209.3 214.86 217.64 223.2 231.86 234.08"
+         y="0"
+         sodipodi:role="line"
+         id="tspan4804">fromthemasterarewrittentotheregisterindicatedin</tspan></text>
+<text
+       transform="matrix(1,0,0,-1,54,425.8)"
+       style="font-variant:normal;font-weight:normal;font-size:10px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text4806"><tspan
+         x="0 2.78 8.3400002 17.1 22.1 27.66 32.66 38.220001 43.779999 52.540001 58.099998 63.099998 65.879997 71.440002 77.419998 84.639999 90.199997 92.980003 98.540001 105.07 107.85"
+         y="0"
+         sodipodi:role="line"
+         id="tspan4808">thesecondbyte.Referto</tspan><tspan
+         x="116.61 122.72 124.94 130.5 136.06 139.39 148.14999 153.71001"
+         y="0"
+         sodipodi:role="line"
+         id="tspan4810">Figure16</tspan><tspan
+         x="162.39999 167.96001 173.52"
+         y="0"
+         sodipodi:role="line"
+         id="tspan4812">and</tspan><tspan
+         x="182.28 188.39 190.61 196.17 201.73 205.06 213.82001 219.38"
+         y="0"
+         sodipodi:role="line"
+         id="tspan4814">Figure17</tspan><tspan
+         x="228.10001 230.88 236.44"
+         y="0"
+         sodipodi:role="line"
+         id="tspan4816">for</tspan></text>
+<text
+       transform="matrix(1,0,0,-1,318,421.8)"
+       style="font-variant:normal;font-weight:normal;font-size:10px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text4818"><tspan
+         x="0 6.6700001 12.23 17.23 22.790001 28.35 40.209999 45.77 50.77 53.549999 59.110001 68.190002 70.970001 76.529999 88.389999 95.059998 102.28 108.95 114.51 120.07 125.63 131.19 133.97 139.53 142.31 154.17 157.5 163.06 168.06 173.62 179.17999 184.74001 189.74001 201.60001 208.82001 211.03999 213.82001 225.67999 228.46001 234.02"
+         y="0"
+         sodipodi:role="line"
+         id="tspan4820">Secondbyte:theADS1013/4/5responsewiththe</tspan></text>
+<text
+       transform="matrix(1,0,0,-1,54,414.8)"
+       style="font-variant:normal;font-weight:normal;font-size:10px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text4822"><tspan
+         x="0 3.3299999 8.8900003 14.45 33.91 39.470001 45.029999 64.489998 71.709999 75.040001 77.260002 80.040001 99.5 105.06 110.62 116.18 119.51 125.07 127.85 130.07001 135.63 155.09 157.87 160.09 168.42 170.64 176.2 195.66 201.22 203.44 209 214.56 217.89 223.45 231.78 236.78"
+         y="0"
+         sodipodi:role="line"
+         id="tspan4824">readandwriteoperationtimingdiagrams,</tspan></text>
+<text
+       transform="matrix(1,0,0,-1,318,410.8)"
+       style="font-variant:normal;font-weight:normal;font-size:10px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text4826"><tspan
+         x="0 8.3299999 15 24.67 30.23 36.009998 38.790001 44.349998 52.91 60.130001 65.690002 71.25 76.25 81.809998 85.139999 90.139999 92.360001 97.919998 106.48 109.81 115.37 120.93 123.15 128.14999 130.92999 136.49001"
+         y="0"
+         sodipodi:role="line"
+         id="tspan4828">MSBoftheConversionregister</tspan></text>
+<text
+       transform="matrix(1,0,0,-1,54,403.8)"
+       style="font-variant:normal;font-weight:normal;font-size:10px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text4830"><tspan
+         x="0 3.3299999 8.8900003 13.89 19.450001 25.01 30.01 32.790001 35.009998 40.009998 45.57 47.790001 52.790001 59.77 66.440002 68.660004 75.080002 78.410004 83.970001 89.529999 99.290001 104.85 110.41 120.17 127.39 130.72 132.94 135.72 145.48 148.25999 151.59 157.14999 162.71001 167.71001 173.27 178.27 181.05 183.27 188.83 194.39 203.59 210.81 213.03 215.81 225.57001 228.35001 233.91"
+         y="0"
+         sodipodi:role="line"
+         id="tspan4832">respectively.Allreadandwritetransactionswiththe</tspan></text>
+<text
+       transform="matrix(1,0,0,-1,318,393.8)"
+       style="font-variant:normal;font-weight:normal;font-size:10px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text4834"><tspan
+         x="0 6.1100001 11.67 13.89 17.219999 27.08 32.639999 37.639999 40.419998 45.98 53.060001 55.84 61.400002 71.260002 77.93 85.150002 91.82 97.379997 102.94 108.5 114.06 116.84 122.4 125.18 135.03999 138.37 143.92999 148.92999 154.49001 160.05 165.61 170.61 180.47 187.69 189.91 192.69 202.55 205.33 210.89 220.75 226.31 232.98"
+         y="0"
+         sodipodi:role="line"
+         id="tspan4836">Thirdbyte:theADS1013/4/5responsewiththeLSB</tspan></text>
+<text
+       transform="matrix(1,0,0,-1,54,392.8)"
+       style="font-variant:normal;font-weight:normal;font-size:10px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text4838"><tspan
+         x="0 6.6700001 13.89 20.559999 26.120001 31.68 37.240002 42.799999 45.580002 51.139999 53.919998 63.779999 72.110001 77.669998 82.669998 89.75 95.309998 105.17 110.73 114.06 119.62 124.62 130.17999 135.74001 141.3 151.16 156.72 166.02 175.88 180.88 183.66 189.22 192.55 199.63 204.63 210.19 215.75 221.31 223.53 226.31 228.53 234.09"
+         y="0"
+         sodipodi:role="line"
+         id="tspan4840">ADS1013/4/5mustbeprecededbyastartcondition</tspan></text>
+<text
+       transform="matrix(1,0,0,-1,318,382.8)"
+       style="font-variant:normal;font-weight:normal;font-size:10px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text4842"><tspan
+         x="0 5.5599999 11.34 14.12 19.68 28.24 35.459999 41.02 46.580002 51.580002 57.139999 60.470001 65.470001 67.690002 73.25 81.809998 85.139999 90.699997 96.260002 98.480003 103.48 106.26 111.82"
+         y="0"
+         sodipodi:role="line"
+         id="tspan4844">oftheConversionregister</tspan></text>
+<text
+       transform="matrix(1,0,0,-1,54,381.8)"
+       style="font-variant:normal;font-weight:normal;font-size:10px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text4846"><tspan
+         x="0 5.5599999 11.12 19.68 22.459999 28.02 30.24 32.459999 38.02 45.240002 50.799999 59.360001 64.919998 72.919998 81.480003 86.480003 89.260002 94.82 103.38 108.38 113.94 119.5 125.06 127.28 130.06 132.28 137.84 143.39999"
+         y="0"
+         sodipodi:role="line"
+         id="tspan4848">andfollowedbyastopcondition.</tspan></text>
+<rect
+       style="opacity:1;fill:#ffffff;fill-opacity:0.87843137;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect4878"
+       width="259.05475"
+       height="326.95676"
+       x="52.495678"
+       y="-703.55621"
+       transform="scale(1,-1)" /></g></svg>

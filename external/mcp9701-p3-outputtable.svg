@@ -1,0 +1,710 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="svg4250"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   xml:space="preserve"
+   width="585.59998"
+   height="332.51483"
+   viewBox="0 0 585.59998 332.51483"
+   sodipodi:docname="mcp9701-p3-outputtable.svg"><metadata
+     id="metadata4256"><rdf:RDF><cc:Work
+         rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata><defs
+     id="defs4254"><clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath4264"><path
+         d="m 81,54 468,0 0,-16.74 -468,0 0,16.74 z"
+         id="path4266"
+         inkscape:connector-curvature="0"
+         style="clip-rule:evenodd" /></clipPath><clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath4270"><path
+         d="m 0,792.03 612,0 0,-792 -612,0 0,792 z"
+         id="path4272"
+         inkscape:connector-curvature="0" /></clipPath><clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath4292"><path
+         d="m 81,743.04 468,0 0,-15.42 -468,0 0,15.42 z"
+         id="path4294"
+         inkscape:connector-curvature="0"
+         style="clip-rule:evenodd" /></clipPath><clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath4298"><path
+         d="m 0,792.03 612,0 0,-792 -612,0 0,792 z"
+         id="path4300"
+         inkscape:connector-curvature="0" /></clipPath></defs><sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="2560"
+     inkscape:window-height="1546"
+     id="namedview4252"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:zoom="1.4020202"
+     inkscape:cx="241.50339"
+     inkscape:cy="276.67214"
+     inkscape:window-x="2400"
+     inkscape:window-y="185"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g4258" /><g
+     id="g4258"
+     inkscape:groupmode="layer"
+     inkscape:label="mcp9701"
+     transform="matrix(1.25,0,0,-1.25,-100.95,370.34481)"><g
+       id="g4260"><g
+         id="g4262"
+         clip-path="url(#clipPath4264)"><g
+           id="g4268"
+           clip-path="url(#clipPath4270)"><path
+             d="m 81,37.26 468,0 0,16.74 -468,0 0,-16.74 z"
+             style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="path4274"
+             inkscape:connector-curvature="0" /><path
+             d="m 81,50.52 468,0 0,1.02 -468,0 0,-1.02 z"
+             style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="path4276"
+             inkscape:connector-curvature="0" /><path
+             d="m 81,45.3 468,0 0,3 -468,0 0,-3 z"
+             style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="path4278"
+             inkscape:connector-curvature="0" /></g></g></g><text
+       transform="matrix(1,0,0,-1,81,31.92)"
+       style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.98000002px;font-family:Symbol;-inkscape-font-specification:SymbolMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text4280"><tspan
+         x="0"
+         y="0"
+         id="tspan4282">©</tspan></text>
+<text
+       transform="matrix(1,0,0,-1,89.521842,31.92)"
+       style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.98000002px;font-family:Arial;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text4284"><tspan
+         x="0 4.4400721 8.8801441 13.320216 17.81934 20.040972 26.691504 28.466255 32.45945 35.11998 39.560051 43.553246 47.993317 49.768066 54.208141 56.429771 61.308743 65.748817 69.742004 74.182083 78.622154 83.062225 84.836975 89.277046 93.717117 97.710312 99.931946 102.15358 106.59365 110.58684 393.05811 398.82364 404.1503 408.59116 413.03204 417.4729 421.91376 426.35464 431.6813 434.38092 438.82019 443.26108 447.70193 452.14282 455.02438"
+         y="0"
+         sodipodi:role="line"
+         id="tspan4286">2009 Microchip Technology Inc.DS21942E-page 3</tspan></text>
+<text
+       transform="matrix(1,0,0,-1,435.4203,310.98)"
+       style="font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9px;font-family:Arial;-inkscape-font-specification:Arial-BoldMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text4704"><tspan
+         sodipodi:role="line"
+         id="tspan4706"
+         x="0"
+         y="0" /><tspan
+         x="0"
+         sodipodi:role="line"
+         id="tspan4708"
+         y="11.25" /><tspan
+         x="-351.42029 -345.4407 -340.46011 -334.9386 -329.95981 -324.48419 -320.9454 -318.48389 -311.4621 -306.00089 -303.02731 -297.5058 -292.03021"
+         y="24.9597"
+         sodipodi:role="line"
+         id="tspan4710">Sensor Output</tspan></text>
+<text
+       transform="matrix(1,0,0,-1,84,271.9803)"
+       style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9px;font-family:Arial;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text4712"><tspan
+         x="0 6.9696002 12.0078 14.4774 19.5156 24.4872 26.9568 29.4786 34.998299 39.9771 41.942699 44.343899 49.315498 54.287102 59.325298 61.794899 64.316704"
+         y="0"
+         sodipodi:role="line"
+         id="tspan4714">Output Voltage, T</tspan></text>
+<text
+       transform="matrix(1,0,0,-1,153.3,269.7601)"
+       style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.19999981px;font-family:Arial;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text4716"><tspan
+         x="0"
+         y="0"
+         id="tspan4718">A</tspan></text>
+<text
+       transform="matrix(1,0,0,-1,160.5615,271.98)"
+       style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9px;font-family:Arial;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text4720"><tspan
+         x="0 5.2767 7.7382002 12.7629 16.3836 80.042397"
+         y="0"
+         sodipodi:role="line"
+         id="tspan4722">= 0°CV</tspan></text>
+<text
+       transform="matrix(1,0,0,-1,246.6,269.7601)"
+       style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.19999981px;font-family:Arial;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text4724"><tspan
+         x="0 4.0190401 6.8400002"
+         y="0"
+         sodipodi:role="line"
+         id="tspan4726">0°C</tspan></text>
+<text
+       transform="matrix(1,0,0,-1,291.6,271.98)"
+       style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9px;font-family:Arial;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text4728"><tspan
+         x="0 37.019699 41.998501 47.036701 79.195503 115.9758 123.4161"
+         y="0"
+         sodipodi:role="line"
+         id="tspan4730">—500—mV</tspan></text>
+<text
+       transform="matrix(1,0,0,-1,435.42,271.98)"
+       style="font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9px;font-family:Arial;-inkscape-font-specification:Arial-BoldMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text4732"><tspan
+         x="0 7.4664001 14.0049 19.977301 24.950701 29.924101 34.897499 39.935699 42.407101 47.445301 52.418701 57.392101 62.365501"
+         y="0"
+         sodipodi:role="line"
+         id="tspan4734">MCP9700/9700A</tspan></text>
+<text
+       transform="matrix(1,0,0,-1,83.9997,258.0003)"
+       style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9px;font-family:Arial;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text4736"><tspan
+         x="0 6.9696002 12.0078 14.4774 19.5156 24.4872 26.9568 29.4786 34.998299 39.9771 41.942699 44.343899 49.315498 54.287102 59.325298 61.794899 64.316704"
+         y="0"
+         sodipodi:role="line"
+         id="tspan4738">Output Voltage, T</tspan></text>
+<text
+       transform="matrix(1,0,0,-1,153.3,255.72)"
+       style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.19999981px;font-family:Arial;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text4740"><tspan
+         x="0"
+         y="0"
+         id="tspan4742">A</tspan></text>
+<text
+       transform="matrix(1,0,0,-1,160.5615,258.0001)"
+       style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9px;font-family:Arial;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text4744"><tspan
+         x="0 5.2767 7.7382002 12.7629 16.3836 80.042397"
+         y="0"
+         sodipodi:role="line"
+         id="tspan4746">= 0°CV</tspan></text>
+<text
+       transform="matrix(1,0,0,-1,246.6,255.72)"
+       style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.19999981px;font-family:Arial;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text4748"><tspan
+         x="0 4.0190401 6.8400002"
+         y="0"
+         sodipodi:role="line"
+         id="tspan4750">0°C</tspan></text>
+<text
+       transform="matrix(1,0,0,-1,291.6,258.0001)"
+       style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9px;font-family:Arial;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text4752"><tspan
+         x="0 37.019699 41.998501 47.036701 79.195503 115.9758 123.4161"
+         y="0"
+         sodipodi:role="line"
+         id="tspan4754">—400—mV</tspan></text>
+<text
+       transform="matrix(1,0,0,-1,435.42,258.0001)"
+       style="font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9px;font-family:Arial;-inkscape-font-specification:Arial-BoldMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text4756"><tspan
+         x="0 7.4664001 14.0049 19.977301 24.950701 29.924101 34.897499 39.935699 42.407101 47.445301 52.418701 57.392101 62.365501"
+         y="0"
+         sodipodi:role="line"
+         id="tspan4758">MCP9701/9701A</tspan></text>
+<text
+       transform="matrix(1,0,0,-1,83.9997,244.0204)"
+       style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9px;font-family:Arial;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text4760"><tspan
+         x="0 4.5018001 9.4806004 16.9632 21.952801 26.9424 29.924999 34.9632 37.424702 42.414299 45.3969 50.435101 52.896599 59.380199 64.418404 69.407997 71.749802 74.237396 76.221001 80.706596 82.690201 87.679802 92.718002 160.27921"
+         y="0"
+         sodipodi:role="line"
+         id="tspan4762">Temperature CoefficientT</tspan></text>
+<text
+       transform="matrix(1,0,0,-1,249.78,241.7401)"
+       style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.19999981px;font-family:Arial;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text4764"><tspan
+         x="0"
+         y="0"
+         id="tspan4766">C</tspan></text>
+<text
+       transform="matrix(1,0,0,-1,291.6,244.0201)"
+       style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9px;font-family:Arial;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text4768"><tspan
+         x="0 35.759701 40.738499 45.776699 48.238201 79.197304 109.6776 117.1773 123.1173 125.6391 129.24001"
+         y="0"
+         sodipodi:role="line"
+         id="tspan4770">—10.0—mV/°C</tspan></text>
+<text
+       transform="matrix(1,0,0,-1,435.42,244.0201)"
+       style="font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9px;font-family:Arial;-inkscape-font-specification:Arial-BoldMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text4772"><tspan
+         x="0 7.4664001 14.0049 19.977301 24.950701 29.924101 34.897499 39.935699 42.407101 47.445301 52.418701 57.392101 62.365501"
+         y="0"
+         sodipodi:role="line"
+         id="tspan4774">MCP9700/9700A</tspan></text>
+<text
+       transform="matrix(1,0,0,-1,244.3203,229.9801)"
+       style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9px;font-family:Arial;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text4776"><tspan
+         x="0"
+         y="0"
+         id="tspan4778">T</tspan></text>
+<text
+       transform="matrix(1,0,0,-1,249.78,227.7601)"
+       style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.19999981px;font-family:Arial;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text4780"><tspan
+         x="0"
+         y="0"
+         id="tspan4782">C</tspan></text>
+<text
+       transform="matrix(1,0,0,-1,291.6,229.9801)"
+       style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9px;font-family:Arial;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text4784"><tspan
+         x="0 35.759701 40.738499 45.776699 48.238201 79.197304 109.6776 117.1773 123.1173 125.6391 129.24001"
+         y="0"
+         sodipodi:role="line"
+         id="tspan4786">—19.5—mV/°C</tspan></text>
+<text
+       transform="matrix(1,0,0,-1,435.42,229.9801)"
+       style="font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9px;font-family:Arial;-inkscape-font-specification:Arial-BoldMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text4788"><tspan
+         x="0 7.4664001 14.0049 19.977301 24.950701 29.924101 34.897499 39.935699 42.407101 47.445301 52.418701 57.392101 62.365501"
+         y="0"
+         sodipodi:role="line"
+         id="tspan4790">MCP9701/9701A</tspan></text>
+<text
+       transform="matrix(1,0,0,-1,83.9997,216.0004)"
+       style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9px;font-family:Arial;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text4792"><tspan
+         x="0 6.9822001 12.0204 14.5026 19.5408 24.525 27.0072 29.528999 36.007198 41.045399 46.029598 49.006802 50.985001 52.9632 58.0014 62.9856 67.969803 70.946999 72.925201 75.407402 155.2077"
+         y="0"
+         sodipodi:role="line"
+         id="tspan4794">Output Non-linearityV</tspan></text>
+<text
+       transform="matrix(1,0,0,-1,245.22,213.72)"
+       style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.19999981px;font-family:Arial;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text4796"><tspan
+         x="0 5.6412001 10.8"
+         y="0"
+         sodipodi:role="line"
+         id="tspan4798">ONL</tspan></text>
+<text
+       transform="matrix(1,0,0,-1,291.6,216)"
+       style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9px;font-family:Arial;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text4800"><tspan
+         x="0 35.82 40.741199 45.720001 48.241798 79.200897 117.6606 121.2615 143.82001"
+         y="0"
+         sodipodi:role="line"
+         id="tspan4802">—±0.5—°CT</tspan></text>
+<text
+       transform="matrix(1,0,0,-1,440.34,213.72)"
+       style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.19999981px;font-family:Arial;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text4804"><tspan
+         x="0"
+         y="0"
+         id="tspan4806">A</tspan></text>
+<text
+       transform="matrix(1,0,0,-1,447.6618,216)"
+       style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9px;font-family:Arial;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text4808"><tspan
+         x="0 5.2199998 7.7417998 12.7431 16.340401 22.835699 25.3575 27.8568 32.858101 35.379902 40.599899 45.578701 50.580002 54.177299 60.6726"
+         y="0"
+         sodipodi:role="line"
+         id="tspan4810">= 0°C to +70°C </tspan></text>
+<text
+       transform="matrix(1,0,0,-1,510.7797,216)"
+       style="font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9px;font-family:Arial;-inkscape-font-specification:Arial-BoldMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text4812"><tspan
+         x="0 2.9988 9.4986 14.9994 17.998199 25.497 30.4758"
+         y="0"
+         sodipodi:role="line"
+         id="tspan4814">(Note2)</tspan></text>
+<text
+       transform="matrix(1,0,0,-1,83.9997,202.0203)"
+       style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9px;font-family:Arial;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text4816"><tspan
+         x="0 6.9696002 12.0078 14.4774 19.5156 24.4872 26.9568 29.4786 35.944199 40.982399 43.946999 46.911598 51.949799 56.9286 156.7701"
+         y="0"
+         sodipodi:role="line"
+         id="tspan4818">Output CurrentI</tspan></text>
+<text
+       transform="matrix(1,0,0,-1,243.3,199.7401)"
+       style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.19999981px;font-family:Arial;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text4820"><tspan
+         x="0 5.58144 10.8"
+         y="0"
+         sodipodi:role="line"
+         id="tspan4822">OUT</tspan></text>
+<text
+       transform="matrix(1,0,0,-1,291.6,202.0201)"
+       style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9px;font-family:Arial;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text4824"><tspan
+         x="0 40.020302 76.200302 81.1791 86.157898 117.1161 122.2749"
+         y="0"
+         sodipodi:role="line"
+         id="tspan4826">——100µA</tspan><tspan
+         x="-207.6003 -200.619 -195.5808 -193.0995 -188.06129 -183.078 -180.59669 -178.07491 -175.5936 -168.11729 -163.134 -158.1507 -153.1674 -148.1292 -143.1459 -138.6666 -52.327801"
+         y="14.04"
+         sodipodi:role="line"
+         id="tspan4828">Output ImpedanceZ</tspan></text>
+<text
+       transform="matrix(1,0,0,-1,244.8,185.7601)"
+       style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.19999981px;font-family:Arial;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text4830"><tspan
+         x="0 5.58144 10.8"
+         y="0"
+         sodipodi:role="line"
+         id="tspan4832">OUT</tspan></text>
+<text
+       transform="matrix(1,0,0,-1,291.6,187.9801)"
+       style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9px;font-family:Arial;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text4834"><tspan
+         x="0 39.5397 44.518501 79.197304"
+         y="0"
+         sodipodi:role="line"
+         id="tspan4836">—20—</tspan></text>
+<text
+       transform="matrix(1,0,0,-1,410.8797,187.9801)"
+       style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9px;font-family:Symbol;-inkscape-font-specification:SymbolMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text4838"><tspan
+         x="0"
+         y="0"
+         id="tspan4840">Ω</tspan></text>
+<text
+       transform="matrix(1,0,0,-1,435.42,187.9801)"
+       style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9px;font-family:Arial;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text4842"><tspan
+         x="0"
+         y="0"
+         id="tspan4844">I</tspan></text>
+<text
+       transform="matrix(1,0,0,-1,437.88,185.7601)"
+       style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.19999981px;font-family:Arial;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text4846"><tspan
+         x="0 5.6412001 10.8"
+         y="0"
+         sodipodi:role="line"
+         id="tspan4848">OUT</tspan></text>
+<text
+       transform="matrix(1,0,0,-1,455.5818,187.9801)"
+       style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9px;font-family:Arial;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text4850"><tspan
+         x="0 5.2199998 7.7417998 12.7575 17.773199 25.2117 30.429899 36.444599 38.906101 41.427898 43.941601 46.403099 51.670799 54.132301 59.147999 64.163696 71.662498 78.140701"
+         y="0"
+         sodipodi:role="line"
+         id="tspan4852">= 100µA, f = 500Hz</tspan><tspan
+         x="-371.58209 -364.60349 -359.56531 -357.0867 -352.04849 -347.0679 -344.58929 -342.0675 -337.08691 -332.04871 -327.06812 -322.08749 -319.5657 -313.09109 -308.1105 -303.0723 -298.09351 -296.1189 -291.13831 -288.6597 -286.68509 -281.64691"
+         y="13.9797"
+         sodipodi:role="line"
+         id="tspan4854">Output Load Regulation</tspan></text>
+<text
+       transform="matrix(1,0,0,-1,235.08,174.0004)"
+       style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9px;font-family:Symbol;-inkscape-font-specification:SymbolMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text4856"><tspan
+         x="0"
+         y="0"
+         id="tspan4858">Δ</tspan></text>
+<text
+       transform="matrix(1,0,0,-1,240.5403,174.0004)"
+       style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9px;font-family:Arial;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text4860"><tspan
+         x="0"
+         y="0"
+         id="tspan4862">V</tspan></text>
+<text
+       transform="matrix(1,0,0,-1,246.54,171.72)"
+       style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.19999981px;font-family:Arial;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text4864"><tspan
+         x="0 5.58144 10.8"
+         y="0"
+         sodipodi:role="line"
+         id="tspan4866">OUT</tspan></text>
+<text
+       transform="matrix(1,0,0,-1,261.72,174)"
+       style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9px;font-family:Arial;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text4868"><tspan
+         x="0"
+         y="0"
+         id="tspan4870">/</tspan></text>
+<text
+       transform="matrix(1,0,0,-1,238.0203,163.02)"
+       style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9px;font-family:Symbol;-inkscape-font-specification:SymbolMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text4872"><tspan
+         x="0"
+         y="0"
+         id="tspan4874">Δ</tspan></text>
+<text
+       transform="matrix(1,0,0,-1,243.54,163.02)"
+       style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9px;font-family:Arial;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text4876"><tspan
+         x="0"
+         y="0"
+         id="tspan4878">I</tspan></text>
+<text
+       transform="matrix(1,0,0,-1,246.06,160.7401)"
+       style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.19999981px;font-family:Arial;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text4880"><tspan
+         x="0 5.5713601 10.73952"
+         y="0"
+         sodipodi:role="line"
+         id="tspan4882">OUT</tspan></text>
+<text
+       transform="matrix(1,0,0,-1,291.6,174)"
+       style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9px;font-family:Arial;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text4884"><tspan
+         x="0 42.000301 79.199097"
+         y="0"
+         sodipodi:role="line"
+         id="tspan4886">—1—</tspan></text>
+<text
+       transform="matrix(1,0,0,-1,410.8797,174)"
+       style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9px;font-family:Symbol;-inkscape-font-specification:SymbolMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text4888"><tspan
+         x="0"
+         y="0"
+         id="tspan4890">Ω</tspan></text>
+<text
+       transform="matrix(1,0,0,-1,435.42,174)"
+       style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9px;font-family:Arial;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text4892"><tspan
+         x="0"
+         y="0"
+         id="tspan4894">T</tspan></text>
+<text
+       transform="matrix(1,0,0,-1,440.34,171.72)"
+       style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.19999981px;font-family:Arial;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text4896"><tspan
+         x="0"
+         y="0"
+         id="tspan4898">A</tspan></text>
+<text
+       transform="matrix(1,0,0,-1,447.6618,174)"
+       style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9px;font-family:Arial;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text4900"><tspan
+         x="0 5.2199998 7.7417998 12.7431 16.340401 22.835699 25.3575 27.8568 32.858101 35.379902 40.599899 45.578701 50.580002 54.177299 60.6726"
+         y="0"
+         sodipodi:role="line"
+         id="tspan4902">= 0°C to +70°C,</tspan><tspan
+         x="-12.2418"
+         y="10.98"
+         id="tspan4904">I</tspan></text>
+<text
+       transform="matrix(1,0,0,-1,437.88,160.7401)"
+       style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.19999981px;font-family:Arial;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text4906"><tspan
+         x="0 5.6412001 10.8"
+         y="0"
+         sodipodi:role="line"
+         id="tspan4908">OUT</tspan></text>
+<text
+       transform="matrix(1,0,0,-1,455.5818,163.0201)"
+       style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9px;font-family:Arial;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text4910"><tspan
+         x="0 5.2254 7.7472 12.7206 17.758801 25.1973 30.415501"
+         y="0"
+         sodipodi:role="line"
+         id="tspan4912">= 100µA</tspan><tspan
+         x="-371.58209 -366.42059 -361.4418 -358.44119 -353.43359 -350.43301 -345.42542 -340.41779 -337.9563 -332.7948 -330.75629 -323.31601 -212.5575"
+         y="14.04"
+         sodipodi:role="line"
+         id="tspan4914">Turn-on Timet</tspan></text>
+<text
+       transform="matrix(1,0,0,-1,245.52,146.7601)"
+       style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.19999981px;font-family:Arial;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text4916"><tspan
+         x="0 5.6412001"
+         y="0"
+         sodipodi:role="line"
+         id="tspan4918">ON</tspan></text>
+<text
+       transform="matrix(1,0,0,-1,291.6,148.98)"
+       style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9px;font-family:Arial;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text4920"><tspan
+         x="0 37.019699 41.998501 47.036701 79.195503 117.8352 123.0534"
+         y="0"
+         sodipodi:role="line"
+         id="tspan4922">—800—µs</tspan></text>
+<text
+       transform="matrix(1,0,0,-1,83.9997,135.0003)"
+       style="font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9px;font-family:Arial;-inkscape-font-specification:Arial-BoldMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text4924"><tspan
+         x="0 6.4808998 11.9628 14.9427 25.200899 30.187799"
+         y="0"
+         sodipodi:role="line"
+         id="tspan4926">Note1:</tspan></text>
+<text
+       transform="matrix(1,0,0,-1,127.1997,135.0003)"
+       style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9px;font-family:Arial;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text4928"><tspan
+         x="0 5.4809999 10.5192 15.5052 18.027 25.506001 32.044498 38.029499 43.067699 48.053699 53.0397 58.0779 60.561901 65.600098 70.586098 75.572098 80.558098 86.543098 89.064903 91.548897 96.534897 104.0139 105.9939 107.9739 112.4559 114.9777 119.9637 124.4457 128.9277 133.9137 136.8927 141.87869 146.3607 150.8427 153.3645 155.3445 159.82651 162.28799 164.772 169.758 174.24001 176.724 181.71001 186.7482 189.2097 195.6897 197.7282 200.2122 205.1982 207.72"
+         y="0"
+         sodipodi:role="line"
+         id="tspan4930">The MCP9700/9700A family accuracy is tested with V</tspan></text>
+<text
+       transform="matrix(1,0,0,-1,340.98,132.7201)"
+       style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.19999981px;font-family:Arial;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text4932"><tspan
+         x="0 5.2185602"
+         y="0"
+         sodipodi:role="line"
+         id="tspan4934">DD</tspan></text>
+<text
+       transform="matrix(1,0,0,-1,353.8818,135.0001)"
+       style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9px;font-family:Arial;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text4936"><tspan
+         x="0 5.2452002 7.7670002 12.7602 15.2514 20.2446 25.404301 27.8955 30.357 36.8955 41.874298 43.8615 45.848701 50.886902 53.3484 55.8396 60.832802 65.871002 68.332497 75.818703 82.305901 88.298103 93.291298 98.329498 103.3227 108.3159 110.8071 115.8003 120.7935 125.8317 130.82491 136.81709 139.3389 144.33211 148.8213 153.3105 158.3037 161.2899 166.2831 170.77229 175.26151 177.72301 179.76151 184.26151"
+         y="0"
+         sodipodi:role="line"
+         id="tspan4938">= 3.3V, while the MCP9701/9701A accuracy is </tspan><tspan
+         x="-226.6821 -224.1972 -219.159 -214.6761 -212.19119 -207.153 -202.17419 -199.6524 -193.17149 -191.1906 -188.7057 -183.7188 -181.19701"
+         y="11.0403"
+         sodipodi:role="line"
+         id="tspan4940">tested with V</tspan></text>
+<text
+       transform="matrix(1,0,0,-1,178.62,121.7401)"
+       style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.19999981px;font-family:Arial;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text4942"><tspan
+         x="0 5.2185602"
+         y="0"
+         sodipodi:role="line"
+         id="tspan4944">DD</tspan></text>
+<text
+       transform="matrix(1,0,0,-1,191.5218,123.9601)"
+       style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9px;font-family:Arial;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text4946"><tspan
+         x="0 5.2803001 7.7417998 12.7386 15.2334 20.2302 25.450199"
+         y="0"
+         sodipodi:role="line"
+         id="tspan4948">= 5.0V.</tspan></text>
+<text
+       transform="matrix(1,0,0,-1,109.1997,111.0001)"
+       style="font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9px;font-family:Arial;-inkscape-font-specification:Arial-BoldMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text4950"><tspan
+         x="0 4.9787998"
+         y="0"
+         sodipodi:role="line"
+         id="tspan4952">2:</tspan></text>
+<text
+       transform="matrix(1,0,0,-1,127.1997,111.0001)"
+       style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9px;font-family:Arial;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text4954"><tspan
+         x="0 5.4791999 10.5174 15.5016 17.663401 25.1406 31.618799 37.602001 42.586201 47.5704 52.608601 57.5928 60.075001 65.059196 70.043404 75.081596 80.065804 86.049004 88.2108 93.195 98.179199 103.2174 105.3792 112.8564 119.3346 125.3178 130.302 135.28619 140.3244 145.30859 147.7908 152.77499 157.7592 162.74339 167.7816 173.7648 175.92661 178.4088 183.44701 190.92419 192.96271 194.9409 199.4211 201.5829 203.5611 208.04131 210.20309 214.6833 219.6675 224.7057 227.7054 232.68961 237.30029 239.787 244.8252 247.8069 249.7896 254.27431 259.263 264.25171 266.4729 271.46161 275.94629 277.92899 282.91769 287.9559 290.11771 292.6044 297.64261 302.63129 304.79309 307.27979 309.26251 312.2442 316.72891 319.21561 322.1973 327.2355 330.17581 335.21399 340.19281 343.1745 345.3363 350.32501 353.3067 355.46851 357.50699 359.4852 364.47391 369.46259 374.50079 377.48251 379.64429 384.633 389.6217 394.65991 399.64859 402.13531 404.11801 409.10669 414.0954 416.58209"
+         y="0"
+         sodipodi:role="line"
+         id="tspan4956">The MCP9700/9700A and MCP9701/9701A family is characterized using the first-order or linear equation, </tspan><tspan
+         x="0 4.9913998 9.4787998 12.0006 16.488001 21.479401 26.4708 32.9562 37.9944 40.455898 42.441299 47.4795"
+         y="11.0403"
+         sodipodi:role="line"
+         id="tspan4958">as shown in </tspan><tspan
+         x="49.9203 55.901699 60.939899 65.922302 70.904701 73.385101 75.361504 80.343903 87.842697 92.880898 95.8563"
+         y="11.0403"
+         sodipodi:role="line"
+         id="tspan4960">Equation4-2</tspan><tspan
+         x="100.9206 103.4136 105.9354 111.9294 113.9184 118.4094 123.4044 125.9262 128.9142 133.90919 136.40221 141.3972 144.38519 146.907 149.39999 154.395"
+         y="11.0403"
+         sodipodi:role="line"
+         id="tspan4962">. Also refer to </tspan><tspan
+         x="156.8403 162.3618 164.34 169.308 174.34621 177.30721 184.806 189.84419 192.8439 197.8119"
+         y="11.0403"
+         sodipodi:role="line"
+         id="tspan4964">Figure2-16</tspan><tspan
+         x="202.8006"
+         y="11.0403"
+         id="tspan4966">.</tspan></text>
+<text
+       transform="matrix(1,0,0,-1,109.2006,86.9998)"
+       style="font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9px;font-family:Arial;-inkscape-font-specification:Arial-BoldMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text4968"><tspan
+         x="0 4.9787998"
+         y="0"
+         sodipodi:role="line"
+         id="tspan4970">3:</tspan></text>
+<text
+       transform="matrix(1,0,0,-1,127.2006,86.9998)"
+       style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9px;font-family:Arial;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text4972"><tspan
+         x="0 5.9868002 12.4686 17.4564 22.444201 25.424999 30.4632 32.924702 37.782902 42.821098 47.304901 51.7887 56.776501 61.764301 66.752098 69.273903 71.759697 76.747498 81.735298 84.716103 92.196899 97.1847 99.166496 101.6883 104.6691 109.6569 114.1407 119.1285 124.1667 129.14549 133.6293 138.6171 141.1389 147.6207 149.60249 152.0883 157.0761 159.5979 164.58569 169.0695 174.0573 176.5791 178.5609 183.59911 188.0829 193.12109 195.6069 198.12869 203.1165 208.15469 213.1425 215.1243 218.1051 222.5889 224.57069 229.5585 234.59669 239.5755 242.09731 246.5811 251.56889 256.5567 261.54449 266.5827 269.56351 272.02499 276.50879 278.4906 283.52881 288.5076 290.99341 293.4549 298.79639 305.81821 308.79901 313.83719 318.82501 321.80579 326.79361 329.3154 334.17361 339.1524 343.6362 348.12 353.10779 358.146 363.12479 365.64661 368.13239 373.17059 378.15839 381.13919 388.62 393.60779 395.5896"
+         y="0"
+         sodipodi:role="line"
+         id="tspan4974">SC70-5 package thermal response with 1x1 inch, dual-sided copper clad, TO-92-3 package thermal </tspan><tspan
+         x="0 2.9826 7.9721999 12.4578 17.447399 22.437 27.475201 31.9608 36.950401 39.472198 45.955799 47.9394 50.426998 55.416599 60.4062 65.444397 67.931999 70.453796 76.442398 82.926003 88.914597 91.376099 94.358704 96.397202 101.3868 106.3764 111.366 116.4042 121.3938 124.3764"
+         y="11.0403"
+         sodipodi:role="line"
+         id="tspan4976">response without PCB (leaded).</tspan></text>
+<path
+       d="m 80.76,145.26 0.48,0 0,151.01585 -0.48,0 0,-151.01585 z"
+       style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="path4978"
+       inkscape:connector-curvature="0" /><path
+       d="m 224.76,144.72 0.48001,0 0,137.52 -0.48001,0 0,-137.52 z"
+       style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="path4986"
+       inkscape:connector-curvature="0" /><path
+       d="m 274.02,144.72 0.48001,0 0,137.52 -0.48001,0 0,-137.52 z"
+       style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="path4994"
+       inkscape:connector-curvature="0" /><path
+       d="m 317.64,144.72 0.47998,0 0,137.52 -0.47998,0 0,-137.52 z"
+       style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="path5002"
+       inkscape:connector-curvature="0" /><path
+       d="m 354.12,144.72 0.48001,0 0,137.52 -0.48001,0 0,-137.52 z"
+       style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="path5010"
+       inkscape:connector-curvature="0" /><path
+       d="m 395.94,144.72 0.48001,0 0,137.52 -0.48001,0 0,-137.52 z"
+       style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="path5018"
+       inkscape:connector-curvature="0" /><path
+       d="m 432.18,144.72 0.47998,0 0,137.52 -0.47998,0 0,-137.52 z"
+       style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="path5026"
+       inkscape:connector-curvature="0" /><path
+       d="m 548.76,145.26 0.47998,0 0,151.01585 -0.47998,0 0,-151.01585 z"
+       style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="path5028"
+       inkscape:connector-curvature="0" /><path
+       d="m 80.76,295.74 468.48,0 0,0.48001 -468.48,0 0,-0.48001 z"
+       style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="path5062"
+       inkscape:connector-curvature="0" /><path
+       d="m 80.76,281.76 468.48,0 0,0.47998 -468.48,0 0,-0.47998 z"
+       style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="path5064"
+       inkscape:connector-curvature="0" /><path
+       d="m 80.76,267.78 468.48,0 0,0.48001 -468.48,0 0,-0.48001 z"
+       style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="path5066"
+       inkscape:connector-curvature="0" /><path
+       d="m 80.76,253.74 468.48,0 0,0.48 -468.48,0 0,-0.48 z"
+       style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="path5068"
+       inkscape:connector-curvature="0" /><path
+       d="m 224.76,239.76 324.48,0 0,0.48 -324.48,0 0,-0.48 z"
+       style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="path5070"
+       inkscape:connector-curvature="0" /><path
+       d="m 80.76,225.78 468.48,0 0,0.48001 -468.48,0 0,-0.48001 z"
+       style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="path5072"
+       inkscape:connector-curvature="0" /><path
+       d="m 80.76,211.74 468.48,0 0,0.48 -468.48,0 0,-0.48 z"
+       style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="path5074"
+       inkscape:connector-curvature="0" /><path
+       d="m 80.76,197.76 468.48,0 0,0.48 -468.48,0 0,-0.48 z"
+       style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="path5076"
+       inkscape:connector-curvature="0" /><path
+       d="m 80.76,183.78 468.48,0 0,0.48001 -468.48,0 0,-0.48001 z"
+       style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="path5078"
+       inkscape:connector-curvature="0" /><path
+       d="m 80.76,158.76 468.48,0 0,0.48 -468.48,0 0,-0.48 z"
+       style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="path5080"
+       inkscape:connector-curvature="0" /><path
+       d="m 80.76,144.78 468.48,0 0,0.48001 -468.48,0 0,-0.48001 z"
+       style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="path5082"
+       inkscape:connector-curvature="0" /></g></svg>
