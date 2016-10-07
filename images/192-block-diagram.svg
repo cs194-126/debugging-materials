@@ -7,17 +7,50 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="225.35358mm"
-   height="92.083847mm"
-   viewBox="0 0 798.49693 326.28135"
+   height="122.08384mm"
+   viewBox="0 0 798.49693 432.58054"
    id="svg2"
    version="1.1"
    inkscape:version="0.91 r13725"
    sodipodi:docname="192-block-diagram.svg">
   <defs
-     id="defs4" />
+     id="defs4">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient4287">
+      <stop
+         style="stop-color:#7f7f7f;stop-opacity:1;"
+         offset="0"
+         id="stop4289" />
+      <stop
+         style="stop-color:#7f7f7f;stop-opacity:0;"
+         offset="1"
+         id="stop4291" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4287"
+       id="linearGradient4293"
+       x1="460.62991"
+       y1="308.26773"
+       x2="354.33072"
+       y2="308.26773"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       gradientTransform="translate(-6.629289e-6,53.149603)"
+       inkscape:collect="always"
+       xlink:href="#linearGradient4287"
+       id="linearGradient4293-4"
+       x1="460.62991"
+       y1="308.26773"
+       x2="354.33072"
+       y2="308.26773"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
   <sodipodi:namedview
      id="base"
      pagecolor="#ffffff"
@@ -26,8 +59,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.8652593"
-     inkscape:cx="320.29845"
-     inkscape:cy="182.88143"
+     inkscape:cx="449.71363"
+     inkscape:cy="200.70324"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -43,16 +76,17 @@
      inkscape:window-y="185"
      inkscape:window-maximized="1"
      inkscape:snap-bbox-edge-midpoints="true"
-     inkscape:bbox-nodes="true"
+     inkscape:bbox-nodes="false"
      fit-margin-top="2.5"
      fit-margin-left="2.5"
      fit-margin-right="2.5"
-     fit-margin-bottom="2.5">
+     fit-margin-bottom="2.5"
+     inkscape:snap-nodes="true">
     <inkscape:grid
        type="xygrid"
        id="grid4136"
        originx="-25.821934"
-       originy="-710.636" />
+       originy="-604.3368" />
   </sodipodi:namedview>
   <metadata
      id="metadata7">
@@ -110,7 +144,7 @@
            height="35.433071"
            x="389.76379"
            y="24.80315" /></flowRegion><flowPara
-         id="flowPara4166"></flowPara></flowRoot>    <rect
+         id="flowPara4166" /></flowRoot>    <rect
        style="opacity:1;fill:#ffffff;fill-opacity:0.49803922;fill-rule:nonzero;stroke:#7f7f7f;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect4184"
        width="141.73228"
@@ -282,21 +316,21 @@
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:18.75038719px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="528.51416"
-       y="285.99884"
+       y="392.30023"
        id="text4295-2-9"
        sodipodi:linespacing="125%"
        transform="scale(1.0000206,0.9999794)"><tspan
          sodipodi:role="line"
          id="tspan4297-1-1"
          x="528.51416"
-         y="285.99884">.</tspan><tspan
+         y="392.30023">.</tspan><tspan
          sodipodi:role="line"
          x="528.51416"
-         y="309.43683"
+         y="415.73822"
          id="tspan4299-5-4">.</tspan><tspan
          sodipodi:role="line"
          x="528.51416"
-         y="332.87482"
+         y="439.17621"
          id="tspan4301-9-9">.</tspan></text>
     <path
        style="fill:none;fill-rule:evenodd;stroke:#7f7f7f;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -525,5 +559,92 @@
          x="662.11963"
          y="258.91144"
          style="font-size:13.75px;text-align:end;text-anchor:end">Analog</tspan></text>
+    <rect
+       style="opacity:1;fill:#ffffff;fill-opacity:0.49803922;fill-rule:nonzero;stroke:#7f7f7f;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect4184-9-2-9-0-1"
+       width="141.73228"
+       height="35.433071"
+       x="460.62991"
+       y="290.55118"
+       transform="translate(7.7991797e-6,9.6666773e-6)" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:18.75px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="532.04651"
+       y="305.90146"
+       id="text4186-8-8-9-2-5"
+       sodipodi:linespacing="125%"
+       transform="translate(7.7991797e-6,9.6666773e-6)"><tspan
+         sodipodi:role="line"
+         x="532.04651"
+         y="305.90146"
+         style="font-size:18.75px;text-align:center;text-anchor:middle"
+         id="tspan4266">Motor Driver</tspan><tspan
+         sodipodi:role="line"
+         x="532.04651"
+         y="324.35522"
+         style="font-size:13.75px;text-align:center;text-anchor:middle"
+         id="tspan4270">Custom Board</tspan></text>
+    <rect
+       style="opacity:1;fill:#ffffff;fill-opacity:0.49803922;fill-rule:nonzero;stroke:#7f7f7f;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect4184-9-2-9-0-1-9"
+       width="141.73228"
+       height="35.433071"
+       x="460.62991"
+       y="343.70081" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:18.75px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="532.04651"
+       y="359.05109"
+       id="text4186-8-8-9-2-5-2"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4188-7-2-6-7-5-6"
+         x="532.04651"
+         y="359.05109"
+         style="text-align:center;text-anchor:middle">OLED</tspan><tspan
+         sodipodi:role="line"
+         x="532.04651"
+         y="377.50485"
+         style="font-size:13.75px;text-align:center;text-anchor:middle"
+         id="tspan4676-4-6">SSD1306</tspan></text>
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:url(#linearGradient4293);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 460.62992,308.26772 -106.29921,0"
+       id="path4355-6"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       transform="translate(1.6699235e-6,3.2134303e-6)" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:url(#linearGradient4293-4);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 460.62992,361.41733 -106.29921,0"
+       id="path4355-6-4"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:18.75px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="444.26288"
+       y="366.54337"
+       id="text4363-6"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4365-2"
+         x="444.26288"
+         y="366.54337"
+         style="font-size:13.75px;text-align:end;text-anchor:end">Modified SPI</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:18.75px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="444.26288"
+       y="313.27963"
+       id="text4363-6-6"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4365-2-7"
+         x="444.26288"
+         y="313.27963"
+         style="font-size:13.75px;text-align:end;text-anchor:end">PWM</tspan></text>
   </g>
 </svg>
