@@ -50,7 +50,7 @@ But how to write it \textit{efficiently} and \textit{well}?
 }
 \visible<3-> {
 \begin{itemize}
-  \item Efficiently writing code: write and test in small pieces
+  \item \textit{Efficiently} writing code: write and test in small pieces
   \begin{itemize}
     \item If something breaks, narrow down culprits easily
     \item Make sure fundamentals are sane before building on top
@@ -73,7 +73,7 @@ EECS192 course project: line-following robot car
 \begin{itemize}
   \item Optical linescan camera, servo actuated steering
   \item Compute and control handled by microcontroller
-  \item Lots of non-stock peripherals to bring up
+  \item Lots of non-standard peripherals to bring up
 \end{itemize}
 }
 \only<2-> {
@@ -103,7 +103,7 @@ What would be a logical way to bring up this system?
   }
   \visible<3-> {
   \begin{itemize}
-      \item Embedded "hello, world": blinking LEDs
+      \item Classic embedded "hello, world": blinking LEDs
       \item \texttt{printf} serial console
   \end{itemize}
   }
@@ -169,7 +169,7 @@ What would be a logical way to bring up this system?
   \begin{itemize}
     \item Generally simple protocols
     \item Datasheet gives all the details
-    \item Pixel data on analog line
+    \item Pixel intensity on analog line
     \item Clock signal shifts out next pixel
   \end{itemize}
 \column{0.5\textwidth}
@@ -245,7 +245,7 @@ you've already learned the servo PWM protocol
 \end{frame}
 
 \begin{frame}
-\centering {\huge Closed-loop tracking demo} \\
+\centering {\huge Closed-loop tracking fun demo} \\
 \hfill \break
 Bringing it all together
 \end{frame}
