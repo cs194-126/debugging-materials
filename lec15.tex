@@ -1,0 +1,267 @@
+\documentclass{beamer}
+\mode<presentation>
+{
+\usepackage{external/dis-template}
+}
+\usepackage{listings}
+\usepackage{textcomp}
+\usepackage{svg}
+
+\definecolor{comments}{HTML}{50c878}
+\lstset{language=C++,
+  basicstyle=\ttfamily,
+  keywordstyle=\color{blue}\ttfamily,
+  stringstyle=\color{red}\ttfamily,
+  commentstyle=\color{comments}\ttfamily,
+  breaklines=true
+}
+
+\graphicspath{{images/}} % TODO: eliminate this hack, necessary because scons builds at repository root
+
+%---------------------------------------------------------------------
+\titlepageinit{15}{Firmware Optimization and Engineering}{13 October 2016}
+%---------------------------------------------------------------------
+\begin{document}
+%---------------------------------------------------------------------
+\begin{frame}
+\titlepage
+\setcounter{tocdepth}{1}
+\tableofcontents
+\end{frame}
+
+%---------------------------------------------------------------------
+\section{Optimization} % [?? mins]
+%---------------------------------------------------------------------
+\begin{frame}
+\centering \huge Optimization
+\end{frame}
+
+
+\begin{frame}
+\frametitle{Recap}
+We brought up the basic hardware and firmware last time \\
+\begin{itemize}
+  \item Line camera
+  \item Servo
+  \item Line detection and controller loop
+\end{itemize}
+\hfill \break
+But it's slow
+\begin{itemize}
+  \item For a fast car: will lose the line by the time steering updates
+\end{itemize}
+\hfill \break
+\textbf{How do we optimize?}
+\end{frame}
+
+
+\begin{frame}
+\frametitle{Optimizing}
+How much should we optimize? \\
+Or, what other limiting factors are there?
+
+\visible<2-> {
+\begin{itemize}
+  \item Physical
+  \visible<3-> {
+    \begin{itemize}
+      \item Camera exposure / integration time (50ms)
+      \item Servo mechanical response (160ms / 60deg)
+    \end{itemize}
+  }
+  \item Electrical
+  \visible<3-> {
+    \begin{itemize}
+      \item Servo update rate (20ms)
+    \end{itemize}
+  }
+\end{itemize}
+}
+\visible<4-> {
+Just for fun, what are some ways around these?
+}
+\end{frame}
+
+
+\begin{frame}
+\frametitle{Measuring}
+How can we measure the update rate? What are some trade-offs? \\
+
+\visible<2-> {
+\begin{itemize}
+  \item \texttt{printf} and timers
+  \item Logic analyzer / oscilloscope on external IO, like \texttt{Serial}
+  \item Dedicated timing signals on external IO
+\end{itemize}
+}
+
+What takes the most amount of time?
+\end{frame}
+
+
+\begin{frame}[fragile]
+\frametitle{Overlapped / pipelined operations}
+How can we optimize this?
+{\tiny \begin{lstlisting}
+camera.read_frame(data);  // discard to start integration
+wait_ms(50);
+camera.read_frame(data);  // actually read the frame
+float steering = controller.update(line_detect(data));  // intensive compute
+servo.write(steering);
+float temperature = read_temperature();  // slow I2C I/O operations
+\end{lstlisting}
+}
+\end{frame}
+
+
+\begin{frame}[fragile]
+\frametitle{Overlapped / pipelined operations}
+How can we optimize this?
+{\tiny \begin{lstlisting}
+camera.read_frame(data);  // discard to start integration
+wait_ms(50);
+camera.read_frame(data);  // actually read the frame
+float steering = controller.update(line_detect(data));  // intensive compute
+servo.write(steering);
+float temperature = read_temperature();  // slow I2C I/O operations
+\end{lstlisting}
+}
+\hfill \break
+Overlap temperature read and line detect with camera integration
+{\tiny \begin{lstlisting}
+timer.reset();
+camera.read_frame(data);  // actually read the frame
+float steering = controller.update(line_detect(data)); // intensive compute
+servo.write(steering);
+float temperature = read_temperature();  // slow I2C I/O operations
+while (timer.read_ms() < 50) ;  // block until 50ms elapsed
+\end{lstlisting}
+}
+
+What are the limits of this technique?
+\visible<2-> {\begin{itemize}
+  \item Only works when blocking (\texttt{wait(...)}) happens in foreground... \\
+  \item What if it's part of a library function, like \texttt{printf}?
+\end{itemize}}
+\end{frame}
+
+
+\begin{frame}[fragile]
+\frametitle{Threads abstraction}
+Manually sequencing operations is \textit{hard}. \\
+Why not have the computer handle concurrency with threads?
+\begin{columns}[t]
+\column{0.5\textwidth}
+{\tiny \begin{lstlisting}
+void camera_thread() {
+  float data[128];
+  camera.read_frame(data);
+  // intensive compute
+  float steering = controller.update(line_detect(data));
+  servo.write(steering);
+  // explicit yield while integrating
+  Thread::wait_ms(50);
+}
+\end{lstlisting}
+}
+\column{0.5\textwidth}
+{\tiny \begin{lstlisting}
+void temperature_thread() {
+  // slow I2C I/O operations
+  float temperature = read_temperature();
+  // ... do something with temperature ...
+  // limit update rate with explicit yield
+  Thread::wait_ms(50);
+}
+\end{lstlisting}
+}
+\end{columns}
+\textit{What could \textbf{possibly} go wrong?}
+\visible<2->{
+  \begin{itemize}
+    \item Data synchronization between threads
+    \item Hidden limits (jiffy interval, thread switch latency, overhead)
+    \item Non-hard-realtime (timing not guaranteed) RTOS
+    \item Deadlock, starvation, livelock, ...
+  \end{itemize}
+\textit{An RTOS is a powerful tool, but comes with caveats. Use with care}
+}
+\end{frame}
+
+
+\begin{frame}
+\frametitle{DMA architectures}
+Even with RTOS / overlapping, most bulk IO operations are blocking. What do? \\
+\hfill \break
+\visible<2-> {
+DMA: \textbf{D}irect \textbf{M}emory \textbf{A}ccess
+\begin{itemize}
+  \item Automatically transfer blocks of data between memory or peripherals
+  \item Operates without CPU intervention, "fire and forget"
+  \item Typically: set up transfer (src, dst, length), then start
+\end{itemize}
+\hfill \break
+... but mbed support for DMA is lacking and nonstandard.
+\begin{itemize}
+  \item If you need this, you will have to register poke
+  \item Details likely in chip datasheet / reference manual
+\end{itemize}
+}
+\end{frame}
+
+
+\begin{frame}[fragile]
+\frametitle{Compute optimizations}
+What if we didn't have a linear thermistor or FPU?
+{\tiny \begin{lstlisting}
+void volts_to_temperature(float volts) {
+  const float R_REF = 10000;  // 10k thermistor
+  const float BETA = 3428, R_INF = R_REF * exp(-BETA / 298.15);
+  const float V_REF = 3.3;  // high voltage reference
+  float resistance = (R_REF * V_REF / volts) - R_REF;
+  float temp = BETA / log((resistance) / R_INF);
+  return temp - 273.15;  // degK to degC
+}
+\end{lstlisting}
+}
+This is really, really expensive. \\
+\hfill \\
+How can this be optimized?
+\visible<2->{
+  \begin{itemize}
+    \item Replace with fixed point operations
+    \item Lookup tables: precompute values before runtime and store in flash
+    \begin{itemize}
+      \item Will need to discretize input, for example: \texttt{volts\_to\_temperature(adc.read\_u16())}
+    \end{itemize}
+  \end{itemize}
+}
+\end{frame}
+
+%---------------------------------------------------------------------
+\section{Software Engineering} % [?? mins]
+%---------------------------------------------------------------------
+
+
+%---------------------------------------------------------------------
+\section{Summary} % [?? mins]
+%---------------------------------------------------------------------
+
+\begin{frame}
+\frametitle{Summary}
+\begin{itemize}
+  \item Optimizations exist if your application is timing sensitive
+  \begin{itemize}
+    \item Know what to optimize to: no more, no less
+    \item I/O probably is the most time consuming operation
+  \end{itemize}
+  \item Write good code now so you don't kick yourself later
+  \begin{itemize}
+    \item Understand what your code is doing
+    \item Write clear, concise, readable code
+    \item Guidelines may be helpful for safety-critical applications
+  \end{itemize}  
+\end{itemize}
+\end{frame}
+
+\end{document}
