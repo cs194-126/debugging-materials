@@ -145,7 +145,7 @@ while (timer.read_ms() < 50) ;  // block until 50ms elapsed
 What are the limits of this technique?
 \visible<2-> {\begin{itemize}
   \item Only works when blocking (\texttt{wait(...)}) happens in foreground... \\
-  \item What if it's part of a library function, like \texttt{printf}?
+  \item Difficult to write this kind of code...
 \end{itemize}}
 \end{frame}
 % 3 -> T+23
@@ -200,8 +200,10 @@ Even with RTOS / overlapping, most bulk IO operations are blocking. What do? \\
 DMA: \textbf{D}irect \textbf{M}emory \textbf{A}ccess
 \begin{itemize}
   \item Automatically transfer blocks of data between memory or peripherals
-  \item Operates without CPU intervention, "fire and forget"
   \item Typically: set up transfer (src, dst, length), then start
+  \begin{itemize}
+    \item Operates without CPU intervention
+  \end{itemize}
 \end{itemize}
 \hfill \break
 ... but mbed support for DMA is lacking and nonstandard.
@@ -235,7 +237,7 @@ How can this be optimized?
 \visible<2->{
   \begin{itemize}
     \item Replace with fixed point operations
-    \item Lookup tables: precompute values before runtime and store in flash
+    \item Lookup tables: precompute values before runtime
     \begin{itemize}
       \item Will need to discretize input, for example: \texttt{volts\_to\_temperature(adc.read\_u16())}
     \end{itemize}
@@ -251,6 +253,8 @@ the circuit
 % 2 -> T+30
 
 
+\subsection{Abstractions}
+%---------------------------------------------------------------------
 \begin{frame}[fragile]
 \frametitle{Cost of abstraction: DigitalOut}
 When you do this,
@@ -302,7 +306,7 @@ Lots of indirection to write a register! What's the trade-off?
 
 
 \begin{frame}[fragile]
-\frametitle{Cost of abstraction: tip of the iceberg}
+\frametitle{Cost of abstraction: Tip of the iceberg}
 \begin{columns}[t]
 \column{0.6\textwidth}
 When you do this,
@@ -885,7 +889,7 @@ NaN NaN NaN NaN NaN NaN NaN
 
 
 \begin{frame} [fragile]
-\frametitle{Begin \texttt{assert()}ive \small{Power of Ten \#4, 6, 8, 9, 10}}
+\frametitle{Others \small{Power of Ten \#4, 6, 8, 9, 10}}
 4, 6, and 7 mainly deal with code style \\
 \begin{itemize}
   \item We've already covered some style examples
@@ -962,6 +966,7 @@ What additional concerns are there with Internet-connected devices?
   \end{itemize}  
   \item Be cognizant of the full impact of your software and device
   \begin{itemize}
+    \item Safety
     \item Security
     \item Privacy
   \end{itemize}  
