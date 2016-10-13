@@ -55,6 +55,7 @@ But it's slow
 \hfill \break
 \textbf{How do we optimize?}
 \end{frame}
+% 2 -> T+7
 
 
 \begin{frame}
@@ -83,6 +84,7 @@ Or, what other limiting factors are there?
 Just for fun, what are some ways around these?
 }
 \end{frame}
+% 3 -> T+10
 
 
 \begin{frame}
@@ -99,6 +101,7 @@ How can we measure the update rate? What are some trade-offs? \\
 
 What takes the most amount of time?
 \end{frame}
+% 10 -> T+20
 
 
 \subsection{Optimizations}
@@ -145,12 +148,13 @@ What are the limits of this technique?
   \item What if it's part of a library function, like \texttt{printf}?
 \end{itemize}}
 \end{frame}
+% 3 -> T+23
 
 
 \begin{frame}[fragile]
 \frametitle{Threads abstraction}
 Manually sequencing operations is \textit{hard}. \\
-Why not have the computer handle concurrency with threads?
+Why not have the computer handle concurrency with threads? \\
 \begin{columns}[t]
 \column{0.5\textwidth}
 \begin{lstlisting}[language=C++,basicstyle=\ttfamily\scriptsize]
@@ -178,14 +182,14 @@ void temperature_thread() {
 \textit{What could \textbf{possibly} go wrong?}
 \visible<2->{
   \begin{itemize}
-    \item Data synchronization between threads
     \item Hidden limits (jiffy interval, thread switch latency, overhead)
     \item Non-hard-realtime (timing not guaranteed) RTOS
-    \item Deadlock, starvation, livelock, ...
+    \item Race conditions, deadlock, starvation, livelock, ...
   \end{itemize}
-\textit{An RTOS is a powerful tool, but comes with caveats. Use with care}
+\textit{An RTOS is a powerful tool, but comes with caveats. Use with care!}
 }
 \end{frame}
+% 3 -> T+26
 
 
 \begin{frame}
@@ -207,13 +211,14 @@ DMA: \textbf{D}irect \textbf{M}emory \textbf{A}ccess
 \end{itemize}
 }
 \end{frame}
+% 2 -> T+28
 
 
 \begin{frame}[fragile]
 \frametitle{Compute optimizations}
 What if we didn't have a linear thermistor or FPU?
 \begin{lstlisting}[language=C++,basicstyle=\ttfamily\scriptsize]
-void volts_to_temperature(float volts) {
+float volts_to_temperature(float volts) {
   const float R_REF = 10000;  // 10k thermistor
   const float BETA = 3428, R_INF = R_REF * exp(-BETA / 298.15);
   const float V_REF = 3.3;  // high voltage reference
@@ -222,6 +227,8 @@ void volts_to_temperature(float volts) {
   return temp - 273.15;  // degK to degC
 }
 \end{lstlisting}
+\begin{columns}[t]
+\column{0.85\textwidth}
 This is really, really expensive. \\
 \hfill \\
 How can this be optimized?
@@ -234,6 +241,103 @@ How can this be optimized?
     \end{itemize}
   \end{itemize}
 }
+\column{0.15\textwidth}
+\begin{figure}[h!]
+\includegraphics[width=0.8\columnwidth]{images/thermistor} \\
+the circuit
+\end{figure}
+\end{columns}
+\end{frame}
+% 2 -> T+30
+
+
+\begin{frame}[fragile]
+\frametitle{Cost of abstraction: DigitalOut}
+When you do this,
+\begin{lstlisting}[language=C++,basicstyle=\ttfamily\tiny]
+DigitalOut my_led(PTC8);
+...
+my_led = 1;
+\end{lstlisting}
+What actually goes on behind the scenes?
+\end{frame}
+
+
+\begin{frame}[fragile]
+\frametitle{Cost of abstraction: Under the hood}
+{\scriptsize \texttt{mbed/api/DigitalOut.h}}
+\begin{lstlisting}[language=C++,basicstyle=\ttfamily\tiny]
+class DigitalOut {
+    void write(int value) {
+        gpio_write(&gpio, value);
+    }
+}
+\end{lstlisting}
+{\scriptsize \texttt{mbed/targets/hal/TARGET\_Freescale/TARGET\_KLXX/gpio\_object.h}}
+\begin{lstlisting}[language=C++,basicstyle=\ttfamily\tiny]
+typedef struct {
+    PinName  pin;
+    uint32_t mask;
+    __IO uint32_t *reg_dir;
+    __IO uint32_t *reg_set;
+    __IO uint32_t *reg_clr;
+    __I  uint32_t *reg_in;
+} gpio_t;
+
+static inline void gpio_write(gpio_t *obj, int value) {
+    if (value)
+        *obj->reg_set = obj->mask;
+    else
+        *obj->reg_clr = obj->mask;
+}
+\end{lstlisting}
+\hfill \\
+Lots of indirection to write a register! What's the trade-off?
+\visible<2-> {
+\begin{itemize}
+  \item Much slower performance, but readable and portable code
+\end{itemize}
+}
+\end{frame}
+
+
+\begin{frame}[fragile]
+\frametitle{Cost of abstraction: tip of the iceberg}
+\begin{columns}[t]
+\column{0.6\textwidth}
+When you do this,
+\begin{lstlisting}[language=C++,basicstyle=\ttfamily\tiny]
+AnalogIn my_adc(PTC2);
+...
+float adc_val = my_adc;
+\end{lstlisting}
+What decisions are implicitly made for you? \\
+\visible<2-> {
+\begin{itemize}
+  \item All the ADC configurations
+  \begin{itemize}
+    \item Like bit accuracy, speed, power settings, and much more ...
+  \end{itemize}
+\end{itemize}
+\hfill \\
+Probably sufficient for most users, but you aren't getting all your hardware can do \\
+\hfill \\
+What do you gain?
+}
+\visible<3->{
+\begin{itemize}
+  \item Portability across platforms
+  \item Simplicity of setup
+\end{itemize}
+}
+\column{0.4\textwidth}
+\visible<2-> {
+\begin{figure}[h!]
+\includegraphics[width=\columnwidth]{external/mkl25z-adccfg1} \\
+MKL25Z ADC registers
+\end{figure}
+}
+\end{columns}
 \end{frame}
 
 %---------------------------------------------------------------------
@@ -261,6 +365,7 @@ All related: unmaintainable, unreadable code tends to hide bugs! \\
 \centering Let's see why!
 }
 \end{frame}
+% 3 -> T+33
 
 
 \subsection{Antipatterns}
@@ -290,6 +395,8 @@ Given the structure, how would I add another camera?
 \hfill \\
 \visible<3>{What hidden assumptions / expectations did I have for \texttt{Camera}?}
 \end{frame}
+% 2 -> T+35
+
 
 \begin{frame}[fragile]
 \frametitle{Expectations}
@@ -316,6 +423,7 @@ public:
 \end{itemize}
 }
 \end{frame}
+% 2 -> T+37
 
 
 \begin{frame}[fragile]
@@ -346,12 +454,12 @@ And why not have it dependent on tracking, perhaps in a different \texttt{.c} fi
 Soon, you have no clue what the target actually is - dataflow spaghetti!
 }
 \end{frame}
-
+% 3 -> T+40
 
 \subsection{Code style}
 %---------------------------------------------------------------------
 \begin{frame}[fragile]
-\frametitle{Oh Dear...}
+\frametitle{= (}
 Let's take another look at the camera protocol and line detection \\
 \hfill \\
 Can you \textbf{easily} tell what this code does?
@@ -407,6 +515,7 @@ int8_t line_offset = CAMERA_HALF - line_detect(cam_data);
 servo.write((float)line_offset/CAMERA_LENGTH);
 \end{lstlisting}
 \end{frame}
+% 3 -> T+43
 
 
 \begin{frame}
@@ -432,6 +541,7 @@ Good style produces readable and maintainable code, saving you time later
 
 \end{columns}
 \end{frame}
+% 2 -> T+45
 
 
 \begin{frame}[fragile]
@@ -464,6 +574,7 @@ Nope
 \end{itemize}
 }
 \end{frame}
+%2 -> T+45
 
 
 \begin{frame}[fragile]
@@ -563,15 +674,241 @@ graphical notation
 \end{figure}
 \end{columns}
 \end{frame}
+%5 -> T+50
 
 
 \subsection{Safety-critical code}
 %---------------------------------------------------------------------
-\begin{frame}[fragile]
-\frametitle{Power of Ten}
-TODO: power of ten safety critical code guidelines
+\begin{frame}
+\frametitle{What could \textit{possibly} go wrong?}
+If your firmware was to fail in operation, what would the consequences be? \\
+\hfill \\
+\visible<2->{
+What if you were building man-rated spacecraft, or a nuclear reactor? \\
+}
+\hfill \\
+\visible<3->{
+How might you approach writing firmware differ for safety-critical systems? \\
+}
+\visible<4->{
+\begin{itemize}
+  \item Lower complexity
+  \item Better documented code
+  \item Code reviews
+  \item More testing and/or static analyzers
+  \item .. and much more ...
+\end{itemize}
+Many style guidelines exist for safety-critical embedded code. \\
+Power of 10 (https://spinroot.com/p10) is one.
+}
 \end{frame}
 
+
+\begin{frame}[fragile]
+\frametitle{Flow control constructs \small{Power of Ten \#1}}
+\begin{columns}[t]
+\column{0.5\textwidth}
+In a less civilized day and age: \\
+\begin{lstlisting}[language=C++,basicstyle=\ttfamily\tiny]
+void update_outputs() {
+  float motor_speed = 1;
+  if (lost_line) goto low_speed;
+  if (bad_line_quality) goto fault;
+  goto okay;
+done:
+  motor = motor_speed;
+  return;
+  
+low_speed:
+  motor_speed = 0.5;
+fault:
+  red_led = 1;
+  goto done;
+okay:
+  red_led = 0;
+  goto done;
+}
+\end{lstlisting}
+\hfill \\
+What does this code do? \\
+Is it easy to understand?
+\column{0.5\textwidth}
+\end{columns}
+\end{frame}
+
+\begin{frame}[fragile]
+\frametitle{Flow control constructs \small{Power of Ten \#1}}
+\begin{columns}[t]
+\column{0.5\textwidth}
+In a less civilized day and age: \\
+\begin{lstlisting}[language=C++,basicstyle=\ttfamily\tiny]
+void update_outputs() {
+  float motor_speed = 1;
+  if (lost_line) goto low_speed;
+  if (bad_line_quality) goto fault;
+  goto okay;
+done:
+  motor = motor_speed;
+  return;
+  
+low_speed:
+  motor_speed = 0.5;
+fault:
+  red_led = 1;
+  goto done;
+okay:
+  red_led = 0;
+  goto done;
+}
+\end{lstlisting}
+\hfill \\
+What does this code do? \\
+Is it easy to understand?
+\column{0.5\textwidth}
+Is this better? Why?
+\begin{lstlisting}[language=C++,basicstyle=\ttfamily\tiny]
+void update_outputs() {
+  if (lost_line) {
+    motor = 0.5;
+    red_led = 1;
+  } else if (bad_line_quality) {
+    motor = 1;
+    red_led = 1;
+  } else {
+    motor = 1;
+    red_led = 0;
+  }
+}
+\end{lstlisting}
+\visible<2->{
+\texttt{goto} makes control paths confusing \\
+Avoid using these constructs
+}
+\end{columns}
+\end{frame}
+
+
+\begin{frame} [fragile]
+\frametitle{Iteration \small{Power of Ten \#2}}
+What could go wrong with this code?
+\begin{lstlisting}[language=C++,basicstyle=\ttfamily\tiny]
+float read_accelerometer() {
+  while (accelerometer.data_available() != accelerometer::READY);
+  return accelerometer.read();
+}
+
+void main() {
+  while (1) {
+    float acceleration = read_accelerometer();
+    red_led = abs(acceleration) > 2;
+    do_some_safety_critical_update();
+  }
+}
+\end{lstlisting}
+\hfill \\
+\visible<2->{
+You can probably guess the accelerometer isn't critical \\
+But \texttt{do\_some\_safety\_critical\_update()} looks critical. \\
+What if the accelerometer failed during operation?
+}
+\visible<3->{
+\begin{itemize}
+  \item System stall! Safety updates don't happen!
+  \item Yaaaaayyyy! \textit{(not!)}
+\end{itemize}
+Be wary of unbounded loop iterations, prevent runaway code.
+}
+\end{frame}
+
+
+\begin{frame} [fragile]
+\frametitle{Dynamic memory allocation \small{Power of Ten \#3}}
+What could go wrong with this code?
+\begin{lstlisting}[language=C++,basicstyle=\ttfamily\tiny]
+float* read_camera() {
+  float* data = (float*)malloc(128*sizeof(float));
+  for (uint8_t i=0; i<128; i++) {
+    // integration and pixel shifting control here
+    data[i] = cam_adc;
+  }
+  return data;
+}
+
+void main() {
+  while (1) {
+    float* data = read_camera();
+     servo.write((float)line_detect(data)/128); 
+  }
+}
+\end{lstlisting}
+Looks pretty, right? But what lurks underneath? \\
+\visible<3->{
+\begin{itemize}
+  \item \texttt{malloc()} without \texttt{free()} - memory leak
+  \item \texttt{malloc()} result not checked for failure
+  \item Difficult to prove program fits in memory constraints
+  \item Potential issues with memory fragmentation
+\end{itemize}
+Recommended to avoid dynamic allocation
+}
+\end{frame}
+
+
+\begin{frame} [fragile]
+\frametitle{Begin \texttt{assert()}ive \small{Power of Ten \#5}}
+You already know what I'm going to ask.
+\begin{lstlisting}[language=C++,basicstyle=\ttfamily\tiny]
+float* average_samples(float* data, size_t samples) {
+  float sum = 0;
+  for (size_t i=0; i<samples; i++) {
+    sum += data[i];
+  }
+  return sum / samples;
+}
+\end{lstlisting}
+\visible<2->{
+NaN NaN NaN NaN NaN NaN NaN
+}
+\visible<3->{
+... Batman! \\
+}
+\visible<3->{
+\begin{itemize}
+  \item Potential division by zero, but returns a NaN instead of failing
+  \item No helpful debugging message, just strange behavior
+\end{itemize}
+\hfill \\
+\hfill \\
+\texttt{assert()} can be used to test pre-conditions (like \texttt{samples > 0}) and fail noisily or initiate recovery actions.
+}
+\end{frame}
+
+
+\begin{frame} [fragile]
+\frametitle{Begin \texttt{assert()}ive \small{Power of Ten \#4, 6, 8, 9, 10}}
+4, 6, and 7 mainly deal with code style \\
+\begin{itemize}
+  \item We've already covered some style examples
+\end{itemize}
+\hfill \\
+\hfill \\
+8 limits preprocessor usage \\
+\begin{itemize}
+  \item Preprocessor is based on string substitution and had complex features
+\end{itemize}
+\hfill \\
+\hfill \\
+9 limits pointer complexity \\
+\begin{itemize}
+  \item Multiple levels of pointer indirection is \textit{hard}!
+\end{itemize}
+\hfill \\
+\hfill \\
+10 encourages use of static analysis tools and compiling with all warnings \\
+\begin{itemize}
+  \item ... because a computer is more through than a human
+\end{itemize}
+\end{frame}
 
 \subsection{Other considerations}
 %---------------------------------------------------------------------
@@ -582,14 +919,15 @@ So Internet of Things is really hot right now ...
 some might even say, \\
 \hfill \\
 {\centering \textit{it's on fire} \\
+} \visible<3-> {
 \hfill \\
 \includegraphics[width=0.7\columnwidth]{external/hacked-headline} \\
 \hfill \\
-}
 What additional concerns are there with Internet-connected devices?
 }
+}
 
-\visible<3-> {
+\visible<4-> {
 \begin{itemize}
   \item Hacking, to become part of a botnet or for data exfiltration
   \begin{itemize}
